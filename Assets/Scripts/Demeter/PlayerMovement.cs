@@ -146,11 +146,11 @@ public class PlayerMovement : MonoBehaviour
     }
     private void ZoomIn()
     {
-        if (Camera.main.orthographicSize > 10f)
+        if (Camera.main.orthographicSize > 28f)
         {
             Camera.main.orthographicSize = Mathf.Lerp(Camera.main.orthographicSize, Camera.main.orthographicSize + -increment, timeLerp * Time.deltaTime);
         }
-        else if (Camera.main.orthographicSize < 10f)
+        else if (Camera.main.orthographicSize < 28f)
         {
             zoomIn = false;
         }
