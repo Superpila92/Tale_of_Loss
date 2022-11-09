@@ -68,8 +68,8 @@ public class PlayerMovement : MonoBehaviour
                 Physics2D.gravity = new Vector2(0, -9.81f);
 
             }
-            speed = 10;
-            jumpingPower = 18;
+            speed = 24;
+            jumpingPower = 36;
             limitJumps = 2;
         }
 
