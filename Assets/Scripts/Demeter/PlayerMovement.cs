@@ -32,6 +32,7 @@ public class PlayerMovement : MonoBehaviour
 
     public Transform keyFollowPoint;
     public Key followingKey;
+
     private void Update()
     {
         horizontal = Input.GetAxisRaw("Horizontal");
@@ -87,7 +88,6 @@ public class PlayerMovement : MonoBehaviour
 
         camSize = Camera.main.orthographicSize;
         timelerpValue = timeLerp * Time.deltaTime;
-
 
     }
 
