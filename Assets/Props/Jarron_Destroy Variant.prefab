@@ -1,0 +1,171 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3425366060792070732
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1030156588587892308, guid: 771fe11436b6ecf40b5a5e4f9be8fcaf, type: 3}
+      propertyPath: m_Name
+      value: Jarron_Destroy
+      objectReference: {fileID: 0}
+    - target: {fileID: 1535691316456724960, guid: 771fe11436b6ecf40b5a5e4f9be8fcaf, type: 3}
+      propertyPath: torque
+      value: -500
+      objectReference: {fileID: 0}
+    - target: {fileID: 1535691316456724960, guid: 771fe11436b6ecf40b5a5e4f9be8fcaf, type: 3}
+      propertyPath: forceDirection.x
+      value: -400
+      objectReference: {fileID: 0}
+    - target: {fileID: 1535691316456724960, guid: 771fe11436b6ecf40b5a5e4f9be8fcaf, type: 3}
+      propertyPath: forceDirection.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2679514663937571475, guid: 771fe11436b6ecf40b5a5e4f9be8fcaf, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: fc536277e4f6b1749ad441fde497bb76, type: 2}
+    - target: {fileID: 2679514663937571475, guid: 771fe11436b6ecf40b5a5e4f9be8fcaf, type: 3}
+      propertyPath: m_LinearDrag
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2679514663937571475, guid: 771fe11436b6ecf40b5a5e4f9be8fcaf, type: 3}
+      propertyPath: m_AngularDrag
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 2679514663937571475, guid: 771fe11436b6ecf40b5a5e4f9be8fcaf, type: 3}
+      propertyPath: m_Constraints
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2679514663937571475, guid: 771fe11436b6ecf40b5a5e4f9be8fcaf, type: 3}
+      propertyPath: m_GravityScale
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3038250197868805619, guid: 771fe11436b6ecf40b5a5e4f9be8fcaf, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3038250197868805619, guid: 771fe11436b6ecf40b5a5e4f9be8fcaf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 263.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3038250197868805619, guid: 771fe11436b6ecf40b5a5e4f9be8fcaf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 112.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3038250197868805619, guid: 771fe11436b6ecf40b5a5e4f9be8fcaf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.395728
+      objectReference: {fileID: 0}
+    - target: {fileID: 3038250197868805619, guid: 771fe11436b6ecf40b5a5e4f9be8fcaf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3038250197868805619, guid: 771fe11436b6ecf40b5a5e4f9be8fcaf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3038250197868805619, guid: 771fe11436b6ecf40b5a5e4f9be8fcaf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3038250197868805619, guid: 771fe11436b6ecf40b5a5e4f9be8fcaf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3038250197868805619, guid: 771fe11436b6ecf40b5a5e4f9be8fcaf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3038250197868805619, guid: 771fe11436b6ecf40b5a5e4f9be8fcaf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3038250197868805619, guid: 771fe11436b6ecf40b5a5e4f9be8fcaf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3261023825674116193, guid: 771fe11436b6ecf40b5a5e4f9be8fcaf, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: fc536277e4f6b1749ad441fde497bb76, type: 2}
+    - target: {fileID: 3831932831551757824, guid: 771fe11436b6ecf40b5a5e4f9be8fcaf, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: fc536277e4f6b1749ad441fde497bb76, type: 2}
+    - target: {fileID: 4526036235879073055, guid: 771fe11436b6ecf40b5a5e4f9be8fcaf, type: 3}
+      propertyPath: torque
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4526036235879073055, guid: 771fe11436b6ecf40b5a5e4f9be8fcaf, type: 3}
+      propertyPath: forceDirection.x
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 4526036235879073055, guid: 771fe11436b6ecf40b5a5e4f9be8fcaf, type: 3}
+      propertyPath: forceDirection.y
+      value: -200
+      objectReference: {fileID: 0}
+    - target: {fileID: 5993259221555367017, guid: 771fe11436b6ecf40b5a5e4f9be8fcaf, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: fc536277e4f6b1749ad441fde497bb76, type: 2}
+    - target: {fileID: 6496490455654204832, guid: 771fe11436b6ecf40b5a5e4f9be8fcaf, type: 3}
+      propertyPath: m_Mass
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6496490455654204832, guid: 771fe11436b6ecf40b5a5e4f9be8fcaf, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: fc536277e4f6b1749ad441fde497bb76, type: 2}
+    - target: {fileID: 6496490455654204832, guid: 771fe11436b6ecf40b5a5e4f9be8fcaf, type: 3}
+      propertyPath: m_LinearDrag
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6496490455654204832, guid: 771fe11436b6ecf40b5a5e4f9be8fcaf, type: 3}
+      propertyPath: m_AngularDrag
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6496490455654204832, guid: 771fe11436b6ecf40b5a5e4f9be8fcaf, type: 3}
+      propertyPath: m_Constraints
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6496490455654204832, guid: 771fe11436b6ecf40b5a5e4f9be8fcaf, type: 3}
+      propertyPath: m_GravityScale
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 7728956747068014759, guid: 771fe11436b6ecf40b5a5e4f9be8fcaf, type: 3}
+      propertyPath: torque
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 7728956747068014759, guid: 771fe11436b6ecf40b5a5e4f9be8fcaf, type: 3}
+      propertyPath: forceDirection.x
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 7728956747068014759, guid: 771fe11436b6ecf40b5a5e4f9be8fcaf, type: 3}
+      propertyPath: forceDirection.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727000125419439078, guid: 771fe11436b6ecf40b5a5e4f9be8fcaf, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: fc536277e4f6b1749ad441fde497bb76, type: 2}
+    - target: {fileID: 8727000125419439078, guid: 771fe11436b6ecf40b5a5e4f9be8fcaf, type: 3}
+      propertyPath: m_LinearDrag
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727000125419439078, guid: 771fe11436b6ecf40b5a5e4f9be8fcaf, type: 3}
+      propertyPath: m_AngularDrag
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727000125419439078, guid: 771fe11436b6ecf40b5a5e4f9be8fcaf, type: 3}
+      propertyPath: m_Constraints
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727000125419439078, guid: 771fe11436b6ecf40b5a5e4f9be8fcaf, type: 3}
+      propertyPath: m_GravityScale
+      value: 30
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 771fe11436b6ecf40b5a5e4f9be8fcaf, type: 3}

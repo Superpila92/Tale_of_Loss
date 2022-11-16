@@ -2,10 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Prop : MonoBehaviour
+public class PropDestroyed : MonoBehaviour
 {
     public int maxHealth = 1;
     int currentHealth;
+
+    [SerializeField]
+    UnityEngine.Object destructableRef;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,9 +27,16 @@ public class Prop : MonoBehaviour
 
         if(currentHealth <= 0)
         {
-            Destroy(gameObject);
+            ExplodeThisGameObject();
         }
     }
+    private void ExplodeThisGameObject()
+    {
+        GameObject destructable = (GameObject)Instantiate(destructableRef);
 
+        destructable.transform.position = transform.position;
+
+        Destroy(gameObject);
+    }
 
 }
