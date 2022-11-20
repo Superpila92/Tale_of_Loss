@@ -1,0 +1,10 @@
+UNITY
+__________________________________________
+
+Anotaciones Fina:
+
+- Falta configurar los quality settings (sel setting Preferences), dentro del menu de opciones puedes cambiar de Low a Ultra pero, 
+todos tienen la misma configuracion dentro del Setting Preferences.
+
+- Configurar saltar seleccion de el menu principal al menu de opciones
+- Audio al cambiar de seleccion
