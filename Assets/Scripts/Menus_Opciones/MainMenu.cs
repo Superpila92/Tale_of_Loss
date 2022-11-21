@@ -11,23 +11,24 @@ public class MainMenu : MonoBehaviour
     [SerializeField] AudioSource audioSelection;
     [SerializeField] AudioSource audioClick;
 
-    /*
-    [SerializeField] AudioSource audioSourceClick;
-
     private void Awake()
     {
-        audioSource = GetComponentInChildren<AudioSource>();
+        //audioSource = GetComponentInChildren<AudioSource>();
     }
-    */
+
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.S))
+        { 
+            audioSelection.Play();
+        }
 
     }
 
 
     public void OnPlay()
     {
-        //audioSourceClick.Play();
+        audioClick.Play();
         Debug.Log("Cargamos la siguiente escena");
         audioClick.Play();
         SceneManager.LoadScene("SampleScene");
