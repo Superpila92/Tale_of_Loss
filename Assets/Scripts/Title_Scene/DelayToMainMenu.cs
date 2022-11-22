@@ -21,7 +21,7 @@ public class DelayToMainMenu : MonoBehaviour
         }
         else
         {
-            SceneManager.LoadScene("SampleScene");
+            SceneManager.LoadScene("Title");
         }
 
     }
