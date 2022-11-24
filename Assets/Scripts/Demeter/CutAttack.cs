@@ -40,6 +40,7 @@ public class CutAttack : MonoBehaviour
         foreach(Collider2D prop in hitProps)
         {
             prop.GetComponent<PropDestroyed>().TakeDamage(attackDamage);
+            
         }
     }
     private void OnDrawGizmosSelected()

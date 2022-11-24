@@ -26,12 +26,19 @@ public class PlayerMovement : MonoBehaviour
     public bool zoomIn = false;
     public bool zoomOut = false;
 
-    public bool gravityIncrement = false;
-    public bool gravityDecrement = false;
-
 
     public Transform keyFollowPoint;
     public Key followingKey;
+
+    public Collider2D goingThroughObjects;
+
+    public SmoothCamera cam;
+
+    private void Start()
+    {
+        rb = GetComponent<Rigidbody2D>();
+        
+    }
 
     private void Update()
     {
@@ -54,23 +61,11 @@ public class PlayerMovement : MonoBehaviour
         }
 
         Flip();
+        GodMode();
+        Normality();
 
         if(IsGrounded())
         {
-            if (gravityIncrement)
-            {
-                Physics2D.gravity = new Vector2(0, -200);
-                speed = 0;
-                jumpingPower = 0;
-                limitJumps = 0;
-            }
-            if (gravityDecrement)
-            {
-                Physics2D.gravity = new Vector2(0, -9.81f);
-
-            }
-            speed = 24;
-            jumpingPower = 36;
             limitJumps = 2;
         }
 
@@ -124,14 +119,6 @@ public class PlayerMovement : MonoBehaviour
         {
             zoomOut = true;
         }
-        if (collision.gameObject.tag == "GravityTrigger")
-        {
-            gravityIncrement = true;
-        }
-        else if (collision.gameObject.tag == "GravityNormal")
-        {
-            gravityDecrement = true;
-        }
     }
     private void ZoomOut()
     {
@@ -153,6 +140,37 @@ public class PlayerMovement : MonoBehaviour
         else if (Camera.main.orthographicSize < 28f)
         {
             zoomIn = false;
+        }
+    }
+
+    private void GodMode()
+    {
+        if (Input.GetKey(KeyCode.G))
+        {
+            zoomOut = true;
+            cam.damping = 0.05f;
+            cam.offset.y = 0f;
+            goingThroughObjects.enabled = false;
+            limitJumps = 999999999;
+            speed = 60f;
+            jumpingPower = 100f;
+            Physics2D.gravity = new Vector2(0, -3f);
+
+        }
+    }
+    private void Normality()
+    {
+        if (Input.GetKey(KeyCode.N))
+        {
+            zoomIn = true;
+            cam.damping = 0.3f;
+            cam.offset.y = 2f;
+            speed = 24f;
+            jumpingPower = 36f;
+            limitJumps = 2;
+            goingThroughObjects.enabled = true;
+            Physics2D.gravity = new Vector2(0, -9.81f);
+
         }
     }
 

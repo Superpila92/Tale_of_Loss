@@ -23,7 +23,7 @@ public class PlatformManager : MonoBehaviour
     }
     void Start()
     {
-        Instantiate(platformPrefab, new Vector2(-20f, 152f), platformPrefab.transform.rotation);
+        Instantiate(platformPrefab, new Vector2(-8.3f, 153.3f), platformPrefab.transform.rotation);
     }
 
     IEnumerator SpawnPlatform(Vector2 spawnPosition)

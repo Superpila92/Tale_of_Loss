@@ -6,43 +6,62 @@ public class GodMode : MonoBehaviour
 {
     public bool godMode = false;
 
-    public float velocity = 20f;
+    public Behaviour playerMovement;
+
+    private float horizontal;
+    private float vertical;
+    public float speed = 8f;
+    private bool isFacingRight = true;
+
+    Rigidbody2D rb;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        rb = GetComponent<Rigidbody2D>();
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKey(KeyCode.G))
-        {
-            godMode = true;
+        God();
 
-           GetComponent<PlayerMovement>().enabled = false;
+        horizontal = Input.GetAxisRaw("Horizontal");
+        vertical = Input.GetAxisRaw("Vertical");
 
+        Flip();
 
-
-            if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey("a"))
-            {
-                transform.position += Vector3.left * velocity * Time.deltaTime;
-            }
-            if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey("d"))
-            {
-                transform.position += Vector3.right * velocity * Time.deltaTime;
-            }
-            if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey("w"))
-            {
-                transform.position += Vector3.up * velocity * Time.deltaTime;
-            }
-            if (Input.GetKey(KeyCode.DownArrow) || Input.GetKey("s"))
-            {
-                transform.position += Vector3.down * velocity * Time.deltaTime;
-            }
-        }
 
 
     }
+    private void FixedUpdate()
+    {
+        rb.velocity = new Vector2(horizontal * speed, rb.velocity.x);
+        rb.velocity = new Vector2(vertical * speed, rb.velocity.y);
+    }
+
+    private void God()
+    {
+        if (Input.GetKey(KeyCode.G))
+        {
+            playerMovement.enabled = false;
+            godMode = true;
+
+            //GetComponent<GodMode>().enabled = true;
+            //GetComponent<PlayerMovement>().enabled = false;
+            
+        }
+    }
+    private void Flip()
+    {
+        if (isFacingRight && horizontal < 0f || !isFacingRight && horizontal > 0f)
+        {
+            Vector3 localScale = transform.localScale;
+            isFacingRight = !isFacingRight;
+            localScale.x *= -1f;
+            transform.localScale = localScale;
+        }
+    }
+
 }
