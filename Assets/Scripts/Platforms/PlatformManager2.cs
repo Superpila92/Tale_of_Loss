@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlatformManager : MonoBehaviour
+public class PlatformManager2 : MonoBehaviour
 {
-    public static PlatformManager Instance = null;
+    public static PlatformManager2 Instance = null;
 
     [SerializeField]
     GameObject platformPrefab;
@@ -22,7 +22,7 @@ public class PlatformManager : MonoBehaviour
     }
     void Start()
     {
-        Instantiate(platformPrefab, new Vector2(-7.3f, 155f), platformPrefab.transform.rotation);
+        Instantiate(platformPrefab, new Vector2(462f, 73f), platformPrefab.transform.rotation);
     }
 
     IEnumerator SpawnPlatform(Vector2 spawnPosition)

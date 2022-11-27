@@ -14,8 +14,8 @@ public class PauseMenu : MonoBehaviour
     public static bool GameIsPaused = false;
     public GameObject pausedMenuUI;
 
-    [SerializeField] AudioSource audioSourcePause;
-    [SerializeField] AudioSource audioSourceClick;
+    //[SerializeField] AudioSource audioSourcePause;
+    //[SerializeField] AudioSource audioSourceClick;
 
     // Update is called once per frame
     void Update()
@@ -37,7 +37,7 @@ public class PauseMenu : MonoBehaviour
     public void Resume()
     {
         pausedMenuUI.SetActive(false);
-        audioSourceClick.Play();
+        //audioSourceClick.Play();
         Time.timeScale = 1f;
         GameIsPaused = false;
     }
@@ -45,7 +45,7 @@ public class PauseMenu : MonoBehaviour
     void Pause()
     {
         pausedMenuUI.SetActive(true);
-        audioSourcePause.Play();
+        //audioSourcePause.Play();
         Time.timeScale = 0f;
         GameIsPaused = true;
 
@@ -54,7 +54,7 @@ public class PauseMenu : MonoBehaviour
     public void Menu()
     {
         Debug.Log("Loading settings...");
-        audioSourceClick.Play();
+        //audioSourceClick.Play();
         Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         SceneManager.LoadScene("MainMenu");

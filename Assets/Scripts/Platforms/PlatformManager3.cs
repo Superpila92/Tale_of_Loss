@@ -2,27 +2,27 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlatformManager : MonoBehaviour
+public class PlatformManager3 : MonoBehaviour
 {
-    public static PlatformManager Instance = null;
+    public static PlatformManager3 Instance = null;
 
     [SerializeField]
     GameObject platformPrefab;
 
     private void Awake()
     {
-        if(Instance == null)
+        if (Instance == null)
         {
             Instance = this;
         }
-        else if(Instance != this)
+        else if (Instance != this)
         {
             Destroy(gameObject);
         }
     }
     void Start()
     {
-        Instantiate(platformPrefab, new Vector2(-7.3f, 155f), platformPrefab.transform.rotation);
+        Instantiate(platformPrefab, new Vector2(462f, 73f), platformPrefab.transform.rotation);
     }
 
     IEnumerator SpawnPlatform(Vector2 spawnPosition)

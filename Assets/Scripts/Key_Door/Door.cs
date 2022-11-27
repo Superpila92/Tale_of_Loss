@@ -10,7 +10,7 @@ public class Door : MonoBehaviour
     public Sprite doorOpenSprite;
     public bool doorOpen, waitingToOpen;
 
-    public GameObject collectEffect;
+    //public GameObject collectEffect;
     // Start is called before the first frame update
     void Start()
     {
@@ -33,7 +33,7 @@ public class Door : MonoBehaviour
                 thePlayer.followingKey.gameObject.SetActive(false);
                 thePlayer.followingKey = null;
 
-                collectEffect.SetActive(true);
+                //collectEffect.SetActive(true);
             }
         }
     }

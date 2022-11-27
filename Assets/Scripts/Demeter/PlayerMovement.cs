@@ -154,7 +154,7 @@ public class PlayerMovement : MonoBehaviour
             limitJumps = 999999999;
             speed = 60f;
             jumpingPower = 100f;
-            Physics2D.gravity = new Vector2(0, -3f);
+            Physics2D.gravity = new Vector2(0, -8f);
 
         }
     }
