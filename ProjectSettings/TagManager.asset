@@ -4,11 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - ZoomOut
-  - ZoomIn
-  - GravityTrigger
-  - GravityNormal
   - Weapon
+  - ExitAudio
+  - Rock
   layers:
   - Default
   - TransparentFX

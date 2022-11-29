@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class PropDestroyed : MonoBehaviour
 {
@@ -9,10 +10,12 @@ public class PropDestroyed : MonoBehaviour
 
     [SerializeField]
     UnityEngine.Object destructableRef;
+
     // Start is called before the first frame update
     void Start()
     {
         currentHealth = maxHealth;
+        
     }
 
     // Update is called once per frame
@@ -32,6 +35,7 @@ public class PropDestroyed : MonoBehaviour
     }
     private void ExplodeThisGameObject()
     {
+        
         GameObject destructable = (GameObject)Instantiate(destructableRef);
 
         destructable.transform.position = transform.position;

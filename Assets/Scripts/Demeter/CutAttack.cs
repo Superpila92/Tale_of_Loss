@@ -12,10 +12,11 @@ public class CutAttack : MonoBehaviour
     public float attackRate = 2f;
     float nextAttackTime = 0f;
 
+
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -24,7 +25,7 @@ public class CutAttack : MonoBehaviour
         if(Time.time >= nextAttackTime)
         {
 
-            if (Input.GetKeyDown(KeyCode.C))
+            if (Input.GetKeyDown(KeyCode.L))
             {
                 Attack();
                 nextAttackTime = Time.time + 1f / attackRate;

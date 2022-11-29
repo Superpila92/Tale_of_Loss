@@ -5,7 +5,7 @@ public class PlayerMovement : MonoBehaviour
 {
     private float horizontal;
     public float speed = 8f;
-    public float jumpingPower = 16f;
+    public float jumpingPower = 18f;
     private bool isFacingRight = true;
 
 
@@ -34,10 +34,13 @@ public class PlayerMovement : MonoBehaviour
 
     public SmoothCamera cam;
 
+    public AudioSource jump;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        
+        AudioSource audio = GetComponent<AudioSource>();
+
     }
 
     private void Update()
@@ -51,6 +54,7 @@ public class PlayerMovement : MonoBehaviour
                 rb.velocity = new Vector2(rb.velocity.x, jumpingPower);
 
                 limitJumps--;
+                jump.Play();
             }
             
         }
@@ -67,6 +71,7 @@ public class PlayerMovement : MonoBehaviour
         if(IsGrounded())
         {
             limitJumps = 2;
+
         }
 
         //Camera Updates
@@ -107,19 +112,6 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    //Camera Functions
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.tag == "ZoomIn")
-        {
-            zoomIn = true;
-        }
-        else if (collision.gameObject.tag == "ZoomOut")
-        {
-            zoomOut = true;
-        }
-    }
     private void ZoomOut()
     {
         if(Camera.main.orthographicSize < camSizeLimit)
@@ -166,7 +158,7 @@ public class PlayerMovement : MonoBehaviour
             cam.damping = 0.3f;
             cam.offset.y = 2f;
             speed = 24f;
-            jumpingPower = 36f;
+            jumpingPower = 38f;
             limitJumps = 2;
             goingThroughObjects.enabled = true;
             Physics2D.gravity = new Vector2(0, -9.81f);
