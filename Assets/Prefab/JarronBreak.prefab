@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 6640214193441423888}
   - component: {fileID: 6640214193441423889}
   - component: {fileID: 6640214193441423918}
-  - component: {fileID: 6640214193441423916}
   m_Layer: 0
   m_Name: Jarron_3
   m_TagString: Untagged
@@ -203,21 +202,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &6640214193441423916
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6640214193441423914}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3cbd65b5a929c3740b0c360d7eb855b4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  forceDirection: {x: 0, y: 0}
-  torque: 0
-  propDestroyedAudio: {fileID: 0}
 --- !u!1 &6640214193649686167
 GameObject:
   m_ObjectHideFlags: 0
@@ -681,7 +665,6 @@ GameObject:
   - component: {fileID: 6640214194566731900}
   - component: {fileID: 6640214194566731901}
   - component: {fileID: 6640214194566731898}
-  - component: {fileID: 6640214194566731896}
   m_Layer: 0
   m_Name: Jarron_2
   m_TagString: Untagged
@@ -834,18 +817,3 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &6640214194566731896
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6640214194566731894}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3cbd65b5a929c3740b0c360d7eb855b4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  forceDirection: {x: 0, y: 0}
-  torque: 0
-  propDestroyedAudio: {fileID: 0}

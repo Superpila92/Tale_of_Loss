@@ -31,6 +31,11 @@ public class Door : MonoBehaviour
                 SR.sprite = doorOpenSprite;
 
                 thePlayer.followingKey.gameObject.SetActive(false);
+
+                this.GetComponentInChildren<Collider2D>().enabled = false;
+                
+                   
+                //Physics2D.IgnoreCollision(SR.GetComponent<Collider2D>(), SR.GetComponent<Collider2D>());
                 thePlayer.followingKey = null;
 
                 //collectEffect.SetActive(true);
@@ -45,6 +50,7 @@ public class Door : MonoBehaviour
             {
                 thePlayer.followingKey.followTarget = transform;
                 waitingToOpen = true;
+                
             }
         }
     }

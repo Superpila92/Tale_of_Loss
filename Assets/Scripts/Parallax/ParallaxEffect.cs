@@ -8,6 +8,8 @@ public class ParallaxEffect : MonoBehaviour
     public GameObject cam;
     public float parallaxEffect;
 
+    public float speed;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,7 +20,7 @@ public class ParallaxEffect : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        
     }
     private void FixedUpdate()
     {

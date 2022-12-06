@@ -19,7 +19,7 @@ public class PlatformFall2 : MonoBehaviour
             PlatformManager2.Instance.StartCoroutine("SpawnPlatform", new Vector2(transform.position.x, transform.position.y));
 
             Invoke("DropPlatform", 0.5f);
-            Destroy(gameObject, 2f);
+            Destroy(gameObject, 4f);
         }
 
     }
