@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class Key : MonoBehaviour
 {
@@ -9,6 +10,8 @@ public class Key : MonoBehaviour
     public float followSpeed;
 
     public Transform followTarget;
+
+    public AudioSource pickKey;
 
     // Start is called before the first frame update
     void Start()
@@ -28,6 +31,7 @@ public class Key : MonoBehaviour
     {
         if(collision.tag == "Player")
         {
+            pickKey.Play();
             if(!isFollowing)
             {
                 PlayerMovement thePlayer = FindObjectOfType<PlayerMovement>();

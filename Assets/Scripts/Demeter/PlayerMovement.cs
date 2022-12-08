@@ -144,8 +144,8 @@ public class PlayerMovement : MonoBehaviour
             cam.offset.y = 0f;
             goingThroughObjects.enabled = false;
             limitJumps = 999999999;
-            speed = 200f;
-            jumpingPower = 100f;
+            speed = 300f;
+            jumpingPower = 200f;
             Physics2D.gravity = new Vector2(0, -8f);
 
         }

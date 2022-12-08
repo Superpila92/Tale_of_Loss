@@ -7,7 +7,7 @@ public class Door : MonoBehaviour
     private PlayerMovement thePlayer;
 
     public SpriteRenderer SR;
-    public Sprite doorOpenSprite;
+    public SpriteRenderer doorOpenSprite;
     public bool doorOpen, waitingToOpen;
 
     //public GameObject collectEffect;
@@ -28,7 +28,7 @@ public class Door : MonoBehaviour
 
                 doorOpen = true;
 
-                SR.sprite = doorOpenSprite;
+                SR.sprite = doorOpenSprite.sprite;
 
                 thePlayer.followingKey.gameObject.SetActive(false);
 
