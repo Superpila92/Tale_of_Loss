@@ -663,8 +663,8 @@ GameObject:
   m_Component:
   - component: {fileID: 6640214194566731897}
   - component: {fileID: 6640214194566731900}
-  - component: {fileID: 6640214194566731901}
-  - component: {fileID: 6640214194566731898}
+  - component: {fileID: 1807128315903322002}
+  - component: {fileID: 1053922775490081604}
   m_Layer: 0
   m_Name: Jarron_2
   m_TagString: Untagged
@@ -739,8 +739,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!60 &6640214194566731901
-PolygonCollider2D:
+--- !u!61 &1807128315903322002
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -752,7 +752,7 @@ PolygonCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.1554718, y: -0.28606606}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -762,41 +762,10 @@ PolygonCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0.8348041, y: -0.8135681}
-      - {x: 0.93757755, y: -0.5908924}
-      - {x: 1.2972846, y: 0.09426387}
-      - {x: 1.3658001, y: 0.29981074}
-      - {x: 1.3658001, y: 0.33406854}
-      - {x: 1.3144134, y: 0.36832634}
-      - {x: 1.1431245, y: 0.41971308}
-      - {x: 1.0060931, y: 0.45397088}
-      - {x: 0.7662885, y: 1.4474474}
-      - {x: 0.69777286, y: 1.515963}
-      - {x: 0.35519478, y: 1.8071544}
-      - {x: -0.0045122285, y: 2.0812168}
-      - {x: -0.2785747, y: 2.2696347}
-      - {x: -0.44986376, y: 2.3724082}
-      - {x: -0.5355083, y: 2.389537}
-      - {x: -1.0322466, y: 1.8927989}
-      - {x: -1.0493754, y: 1.8585411}
-      - {x: -0.6382817, y: 1.1733849}
-      - {x: -0.44986376, y: 0.8479357}
-      - {x: -0.32996142, y: 0.65951777}
-      - {x: -1.3405669, y: -0.35108766}
-      - {x: -1.3405669, y: -0.36821657}
-      - {x: -0.7581841, y: -1.6357555}
-      - {x: -0.6211528, y: -1.909818}
-      - {x: -0.74105513, y: -2.0125916}
-      - {x: -0.9123442, y: -2.2181385}
-      - {x: -0.94660205, y: -2.3551695}
-      - {x: -0.8609575, y: -2.3894274}
-      - {x: 0.56074166, y: -2.3894274}
-      - {x: 0.62925726, y: -2.3380406}
-      - {x: 0.64638615, y: -2.269525}
-      - {x: 0.35519478, y: -1.909818}
---- !u!50 &6640214194566731898
+  serializedVersion: 2
+  m_Size: {x: 1.4586792, y: 4.1337547}
+  m_EdgeRadius: 0
+--- !u!50 &1053922775490081604
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
