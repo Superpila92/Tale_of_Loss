@@ -78,4 +78,26 @@ public class AudioManager : MonoBehaviour
             track02.Stop();
         }
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        float timeToFade = 0.25f;
+        float timeElapsed = 0;
+
+        if (collision.gameObject.CompareTag("ExitAudio"))
+        {
+
+            while (timeElapsed < timeToFade)
+            {
+                track01.volume = Mathf.Lerp(1, 0, timeElapsed / timeToFade);
+                track02.volume = Mathf.Lerp(1, 0, timeElapsed / timeToFade);
+                timeElapsed += Time.deltaTime;
+               
+            }
+            track01.Stop();
+            track02.Stop();
+
+        }
+    }
+
 }

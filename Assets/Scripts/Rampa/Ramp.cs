@@ -15,6 +15,7 @@ public class Ramp : MonoBehaviour
         {
             cam.offset.x = 14f;
             cam.offset.y = -14f;
+            cam.offset.z = -100f;
             cam.damping = 0.3f;
             plyM.jumpingPower = 0f;
             plyM.speed = 0f;
