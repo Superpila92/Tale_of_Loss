@@ -7,6 +7,8 @@ TagManager:
   - Weapon
   - ExitAudio
   - Rock
+  - GravityTrigger
+  - GravityNormal
   layers:
   - Default
   - TransparentFX
@@ -35,11 +37,11 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - ColisionMixta
+  - ColisionEnForeground
+  - ColisionEnBackground
+  - ChicaEnForeground
+  - ChicaEnBackground
   m_SortingLayers:
   - name: Default
     uniqueID: 0
