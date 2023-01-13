@@ -8,6 +8,9 @@ public class OptionMenu : MonoBehaviour
 {
     public AudioMixer audioMaster;
     public AudioMixer audioFX;
+    public Image panelBrillo;
+    public Slider sliderBrillo;
+    public float sliderValueBrillo;
 
     //public TMPro.TMP_Dropdown resolutionDropdown;
 
@@ -44,6 +47,12 @@ public class OptionMenu : MonoBehaviour
         Screen.SetResolution(resolution.width, resolution.height, Screen.fullScreen);
     }
     */
+
+    void Start()
+    {
+        sliderBrillo.value = PlayerPrefs.GetFloat("Brillo", 0f);
+        panelBrillo.color = new Color(panelBrillo.color.r, panelBrillo.color.g, panelBrillo.color.b, sliderBrillo.value);
+    }
 
     public void SetScreenRes(int ResolutionIndex)
     {
@@ -82,5 +91,12 @@ public class OptionMenu : MonoBehaviour
     { 
         Screen.fullScreen = isFullScreen;
     }
-    
+
+    public void ChangeSlider(float valor)
+    {
+        sliderValueBrillo = valor;
+        PlayerPrefs.SetFloat("brillo", sliderValueBrillo);
+        panelBrillo.color = new Color(panelBrillo.color.r, panelBrillo.color.g, panelBrillo.color.b, sliderBrillo.value);
+    }
+
 }
