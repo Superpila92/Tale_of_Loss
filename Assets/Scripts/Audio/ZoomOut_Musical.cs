@@ -14,6 +14,7 @@ public class ZoomOut_Musical : MonoBehaviour
     public float timelerpValue;
     public bool zoomOut = false;
 
+    public float offsetY;
     //public AudioSource gameMusic1;
     //public AudioSource gameMusic2;
 
@@ -29,6 +30,7 @@ public class ZoomOut_Musical : MonoBehaviour
         if (zoomOut)
         {
             ZoomOut();
+            CenterCam();
         }
 
         camSize = Camera.main.orthographicSize;
@@ -44,6 +46,10 @@ public class ZoomOut_Musical : MonoBehaviour
         {
             zoomOut = false;
         }
+    }
+    private void CenterCam()
+    {
+        cam.offset.y = Mathf.Lerp(offsetY, Camera.main.orthographicSize + increment, timeLerp * Time.deltaTime);
     }
     public void OnTriggerEnter2D(Collider2D collision)
     {

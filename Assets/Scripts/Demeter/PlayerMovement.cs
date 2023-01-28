@@ -5,11 +5,9 @@ public class PlayerMovement : MonoBehaviour
 {
     private float horizontal;
     public float speed = 8f;
-    public float jumpingPower = 18f;
+    public float jumpingPower = 28f;
     private bool isFacingRight = true;
 
-
-    public int limitJumps = 2;
 
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Transform groundCheck;
@@ -47,22 +45,7 @@ public class PlayerMovement : MonoBehaviour
     {
         horizontal = Input.GetAxisRaw("Horizontal");
 
-        if (Input.GetButtonDown("Jump"))
-        {
-            if (limitJumps > 1)
-            {
-                rb.velocity = new Vector2(rb.velocity.x, jumpingPower);
 
-                limitJumps--;
-                jump.Play();
-            }
-            
-        }
-
-        if (Input.GetButtonUp("Jump") && rb.velocity.y > 0f)
-        {
-            rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
-        }
 
         Flip();
         GodMode();
@@ -70,7 +53,16 @@ public class PlayerMovement : MonoBehaviour
 
         if(IsGrounded())
         {
-            limitJumps = 2;
+            if (Input.GetButtonDown("Jump"))
+            {
+                rb.velocity = new Vector2(rb.velocity.x, jumpingPower);
+                jump.Play();
+            }
+
+            if (Input.GetButtonUp("Jump") && rb.velocity.y > 0f)
+            {
+                rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
+            }
 
         }
 
@@ -139,11 +131,10 @@ public class PlayerMovement : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.G))
         {
-            zoomOut = true;
+            //zoomOut = true;
             cam.damping = 0.05f;
             cam.offset.y = 0f;
             goingThroughObjects.enabled = false;
-            limitJumps = 999999999;
             speed = 300f;
             jumpingPower = 200f;
             Physics2D.gravity = new Vector2(0, -8f);
@@ -154,12 +145,11 @@ public class PlayerMovement : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.N))
         {
-            zoomIn = true;
+            //zoomIn = true;
             cam.damping = 0.3f;
             cam.offset.y = 2f;
             speed = 24f;
-            jumpingPower = 40f;
-            limitJumps = 2;
+            jumpingPower = 54f;
             goingThroughObjects.enabled = true;
             Physics2D.gravity = new Vector2(0, -9.81f);
 

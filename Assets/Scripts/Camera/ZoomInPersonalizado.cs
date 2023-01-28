@@ -13,6 +13,8 @@ public class ZoomInPersonalizado : MonoBehaviour
     public float timelerpValue;
     public bool zoomIn = false;
 
+    public float offsetY;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +27,7 @@ public class ZoomInPersonalizado : MonoBehaviour
         if (zoomIn)
         {
             ZoomOut();
+            CenterCam();
         }
 
         camSize = Camera.main.orthographicSize;
@@ -40,6 +43,10 @@ public class ZoomInPersonalizado : MonoBehaviour
         {
             zoomIn = false;
         }
+    }
+    private void CenterCam()
+    {
+        cam.offset.y = Mathf.Lerp(offsetY, Camera.main.orthographicSize + increment, timeLerp * Time.deltaTime);
     }
     public void OnTriggerEnter2D(Collider2D collision)
     {
