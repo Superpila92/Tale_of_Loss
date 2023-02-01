@@ -5,7 +5,7 @@ using UnityEngine.Audio;
 
 public class ZoomOut_Musical : MonoBehaviour
 {
-    public SmoothCamera cam;
+    public CameraLimits cam;
     public float camSize;
     public float camSizeLimit;
     public float increment;
@@ -15,6 +15,8 @@ public class ZoomOut_Musical : MonoBehaviour
     public bool zoomOut = false;
 
     public float offsetY;
+    public float leftLimit;
+    public float bottomLimit;
     //public AudioSource gameMusic1;
     //public AudioSource gameMusic2;
 
@@ -50,6 +52,8 @@ public class ZoomOut_Musical : MonoBehaviour
     private void CenterCam()
     {
         cam.offset.y = Mathf.Lerp(offsetY, Camera.main.orthographicSize + increment, timeLerp * Time.deltaTime);
+        //cam.leftLimit = Mathf.Lerp(leftLimit, Camera.main.orthographicSize + increment, timeLerp * Time.deltaTime);
+        cam.bottomLimit = Mathf.Lerp(bottomLimit, Camera.main.orthographicSize + increment, timeLerp * Time.deltaTime);
     }
     public void OnTriggerEnter2D(Collider2D collision)
     {

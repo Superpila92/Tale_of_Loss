@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ZoomOutPersonalizado : MonoBehaviour
 {
-    public SmoothCamera cam;
+    public CameraLimits cam;
     public float camSize;
     public float camSizeLimit;
     public float increment;
@@ -13,12 +13,14 @@ public class ZoomOutPersonalizado : MonoBehaviour
     public float timelerpValue;
     public bool zoomOut = false;
 
+    public float cameraLimitBottom;
+    public float cameraLimitLeft;
     public float offsetY;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -46,11 +48,13 @@ public class ZoomOutPersonalizado : MonoBehaviour
     }
     private void CenterCam()
     {
+        cam.bottomLimit = Mathf.Lerp(cameraLimitBottom, Camera.main.orthographicSize + increment, timeLerp * Time.deltaTime);
+        //cam.leftLimit = Mathf.Lerp(cameraLimitLeft, Camera.main.orthographicSize + increment, timeLerp * Time.deltaTime);
         cam.offset.y = Mathf.Lerp(offsetY, Camera.main.orthographicSize + increment, timeLerp * Time.deltaTime);
     }
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Player"))
         {
             zoomOut = true;
             ZoomOut();

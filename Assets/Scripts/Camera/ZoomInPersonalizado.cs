@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ZoomInPersonalizado : MonoBehaviour
 {
-    public SmoothCamera cam;
+    public CameraLimits cam;
     public float camSize;
     public float camSizeLimit;
     public float increment;
@@ -13,8 +13,8 @@ public class ZoomInPersonalizado : MonoBehaviour
     public float timelerpValue;
     public bool zoomIn = false;
 
+    public float cameraLimitBottom;
     public float offsetY;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -46,6 +46,7 @@ public class ZoomInPersonalizado : MonoBehaviour
     }
     private void CenterCam()
     {
+        cam.bottomLimit = Mathf.Lerp(cameraLimitBottom, Camera.main.orthographicSize + increment, timeLerp * Time.deltaTime);
         cam.offset.y = Mathf.Lerp(offsetY, Camera.main.orthographicSize + increment, timeLerp * Time.deltaTime);
     }
     public void OnTriggerEnter2D(Collider2D collision)

@@ -11,6 +11,7 @@ public class SmoothCamera : MonoBehaviour
 
     private Vector3 velocity = Vector3.zero;
 
+
     // Start is called before the first frame update
 
     // Update is called once per frame
