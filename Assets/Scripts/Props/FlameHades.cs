@@ -20,10 +20,7 @@ public class FlameHades : MonoBehaviour
     void Update()
     {
         {
-            if (Vector3.Distance(thePlayer.followingKey.transform.position, transform.position) < 0.01f)
-            {
 
-            }
         }
     }
     private void OnTriggerEnter2D(Collider2D collision)
