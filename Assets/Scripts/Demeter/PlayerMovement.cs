@@ -1,6 +1,8 @@
 using System.Collections;
 using UnityEngine;
 
+//using armatureComponent = DragonBones.UnityArmatureComponent;
+
 public class PlayerMovement : MonoBehaviour
 {
     private float horizontal;
@@ -51,7 +53,7 @@ public class PlayerMovement : MonoBehaviour
         GodMode();
         Normality();
 
-        if(IsGrounded())
+        if (IsGrounded())
         {
             if (Input.GetButtonDown("Jump"))
             {
@@ -68,7 +70,7 @@ public class PlayerMovement : MonoBehaviour
 
         //Camera Updates
 
-        if(zoomIn)
+        if (zoomIn)
         {
             ZoomIn();
         }
@@ -106,11 +108,11 @@ public class PlayerMovement : MonoBehaviour
 
     private void ZoomOut()
     {
-        if(Camera.main.orthographicSize < camSizeLimit)
+        if (Camera.main.orthographicSize < camSizeLimit)
         {
             Camera.main.orthographicSize = Mathf.Lerp(Camera.main.orthographicSize, Camera.main.orthographicSize + increment, timeLerp * Time.deltaTime);
         }
-        else if(Camera.main.orthographicSize > camSizeLimit)
+        else if (Camera.main.orthographicSize > camSizeLimit)
         {
             zoomOut = false;
         }
