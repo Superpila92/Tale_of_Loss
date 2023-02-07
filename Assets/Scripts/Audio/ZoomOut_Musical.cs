@@ -15,6 +15,7 @@ public class ZoomOut_Musical : MonoBehaviour
     public bool zoomOut = false;
 
     public float offsetY;
+    public float offsetX;
     public float leftLimit;
     public float bottomLimit;
     //public AudioSource gameMusic1;
@@ -52,6 +53,7 @@ public class ZoomOut_Musical : MonoBehaviour
     private void CenterCam()
     {
         cam.offset.y = Mathf.Lerp(offsetY, Camera.main.orthographicSize + increment, timeLerp * Time.deltaTime);
+        cam.offset.x = Mathf.Lerp(offsetX, Camera.main.orthographicSize + increment, timeLerp * Time.deltaTime);
         //cam.leftLimit = Mathf.Lerp(leftLimit, Camera.main.orthographicSize + increment, timeLerp * Time.deltaTime);
         cam.bottomLimit = Mathf.Lerp(bottomLimit, Camera.main.orthographicSize + increment, timeLerp * Time.deltaTime);
     }

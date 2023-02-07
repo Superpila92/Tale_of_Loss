@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    private bool isJumping;
+
     private float horizontal;
     public float speed = 8f;
     public float jumpingPower = 28f;
@@ -36,15 +38,28 @@ public class PlayerMovement : MonoBehaviour
 
     public AudioSource jump;
 
+    private Animator anim;
+
+
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         AudioSource audio = GetComponent<AudioSource>();
+        anim = GetComponent<Animator>();
 
     }
 
     private void Update()
     {
+        if (horizontal == 0)
+        {
+            anim.SetBool("isWalking", false);
+        }
+        else
+        {
+
+            anim.SetBool("isWalking", true);
+        }
         horizontal = Input.GetAxisRaw("Horizontal");
 
 
@@ -53,19 +68,23 @@ public class PlayerMovement : MonoBehaviour
         GodMode();
         Normality();
 
+        if (Input.GetButtonDown("Jump") && !isJumping)
+        {
+            anim.SetTrigger("isJumping");
+
+            rb.velocity = new Vector2(rb.velocity.x, jumpingPower);
+
+            isJumping = true;
+        }
+        else
+        {
+            anim.SetBool("isJumping_bool", true);
+            isJumping = true;
+        }
         if (IsGrounded())
         {
-            if (Input.GetButtonDown("Jump"))
-            {
-                rb.velocity = new Vector2(rb.velocity.x, jumpingPower);
-                jump.Play();
-            }
-
-            if (Input.GetButtonUp("Jump") && rb.velocity.y > 0f)
-            {
-                rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
-            }
-
+            isJumping = false;
+            anim.SetBool("isJumping_bool", false);
         }
 
         //Camera Updates
