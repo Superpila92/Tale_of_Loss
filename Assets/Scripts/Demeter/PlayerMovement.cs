@@ -8,6 +8,7 @@ public class PlayerMovement : MonoBehaviour
     private bool isJumping;
 
     private float horizontal;
+    //private float vertical;
     public float speed = 8f;
     public float jumpingPower = 28f;
     private bool isFacingRight = true;
@@ -75,16 +76,21 @@ public class PlayerMovement : MonoBehaviour
             rb.velocity = new Vector2(rb.velocity.x, jumpingPower);
 
             isJumping = true;
+            
         }
         else
         {
+            
             anim.SetBool("isJumping_bool", true);
+            anim.SetBool("isFalling_bool", true);
             isJumping = true;
         }
         if (IsGrounded())
         {
+            anim.SetBool("isFalling", false);
             isJumping = false;
             anim.SetBool("isJumping_bool", false);
+
         }
 
         //Camera Updates
@@ -175,6 +181,35 @@ public class PlayerMovement : MonoBehaviour
             Physics2D.gravity = new Vector2(0, -9.81f);
 
         }
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Empujable"))
+        {
+            anim.SetTrigger("isDragging");
+            anim.SetBool("isDragging_bool", true);
+        }
+
+
+
+
+    }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        anim.SetBool("isDragging_bool", false);
+
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Deslizable"))
+        {
+            anim.SetTrigger("isSliding");
+            anim.SetBool("isSliding_bool", true);
+        }
+    }
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        anim.SetBool("isSliding_bool", false);
     }
 
 }

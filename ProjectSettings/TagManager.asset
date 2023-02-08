@@ -9,6 +9,8 @@ TagManager:
   - Rock
   - GravityTrigger
   - GravityNormal
+  - Empujable
+  - Deslizable
   layers:
   - Default
   - TransparentFX

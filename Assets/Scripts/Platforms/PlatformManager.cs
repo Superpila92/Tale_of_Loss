@@ -27,7 +27,7 @@ public class PlatformManager : MonoBehaviour
 
     IEnumerator SpawnPlatform(Vector2 spawnPosition)
     {
-        yield return new WaitForSeconds(6f);
+        yield return new WaitForSeconds(12f);
 
         Instantiate(platformPrefab, spawnPosition, platformPrefab.transform.rotation);
 

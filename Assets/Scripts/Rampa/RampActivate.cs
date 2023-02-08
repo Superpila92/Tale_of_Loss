@@ -24,7 +24,7 @@ public class RampActivate : MonoBehaviour
             cam2.offset.y = 2f;
             cam2.offset.z = -100f;
             cam2.damping = 0.3f;
-            plyM2.jumpingPower = 50f;
+            plyM2.jumpingPower = 54f;
             plyM2.speed = 24f;
         }
     }
