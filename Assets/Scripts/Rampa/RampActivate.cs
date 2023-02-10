@@ -7,7 +7,7 @@ public class RampActivate : MonoBehaviour
     public bool activate = false;
 
     public PlayerMovement plyM2;
-    public SmoothCamera cam2;
+    //public SmoothCamera cam2;
 
     // Start is called before the first frame update
     void Start()
@@ -20,10 +20,10 @@ public class RampActivate : MonoBehaviour
     {
         if (activate)
         {
-            cam2.offset.x = 0f;
-            cam2.offset.y = 2f;
-            cam2.offset.z = -100f;
-            cam2.damping = 0.3f;
+           // cam2.offset.x = 0f;
+           // cam2.offset.y = 2f;
+            //cam2.offset.z = -100f;
+            //cam2.damping = 0.3f;
             plyM2.jumpingPower = 54f;
             plyM2.speed = 24f;
         }
