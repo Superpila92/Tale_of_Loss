@@ -6,7 +6,7 @@ public class Ramp : MonoBehaviour
 {
 
     public PlayerMovement plyM;
-    public SmoothCamera cam;
+    public CameraLimits cam;
 
     // Start is called before the first frame update
     private void OnTriggerEnter2D(Collider2D collision)

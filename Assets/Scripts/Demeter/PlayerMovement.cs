@@ -82,8 +82,13 @@ public class PlayerMovement : MonoBehaviour
         {
             
             anim.SetBool("isJumping_bool", true);
-            anim.SetBool("isFalling_bool", true);
+
             isJumping = true;
+        }
+        if (!IsGrounded())
+        {
+            anim.SetTrigger("isFalling");
+            anim.SetBool("isFalling_bool", true);
         }
         if (IsGrounded())
         {
@@ -91,7 +96,9 @@ public class PlayerMovement : MonoBehaviour
             isJumping = false;
             anim.SetBool("isJumping_bool", false);
 
+
         }
+
 
         //Camera Updates
 
