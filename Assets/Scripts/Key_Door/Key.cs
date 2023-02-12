@@ -11,7 +11,7 @@ public class Key : MonoBehaviour
 
     public Transform followTarget;
 
-    public AudioSource pickKey;
+    //public AudioSource pickKey;
 
     // Start is called before the first frame update
     void Start()
@@ -31,7 +31,7 @@ public class Key : MonoBehaviour
     {
         if(collision.tag == "Player")
         {
-            pickKey.Play();
+           //pickKey.Play();
             if(!isFollowing)
             {
                 PlayerMovement thePlayer = FindObjectOfType<PlayerMovement>();

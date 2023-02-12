@@ -25,7 +25,7 @@ public class RampActivate : MonoBehaviour
            cam2.offset.z = -100f;
            cam2.damping = 0.3f;
             plyM2.jumpingPower = 54f;
-            plyM2.speed = 24f;
+            plyM2.speed = 36f;
         }
     }
     private void OnTriggerEnter2D(Collider2D collision)
