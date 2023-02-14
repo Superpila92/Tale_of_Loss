@@ -41,12 +41,20 @@ public class PlayerMovement : MonoBehaviour
 
     private Animator anim;
 
+    private Vector3 ChangePosition;
+
+    float adelante = 1f;
+
+    float detras = -1f;
+
 
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         AudioSource audio = GetComponent<AudioSource>();
         anim = GetComponent<Animator>();
+
+        ChangePosition = transform.position;
 
     }
 
@@ -197,7 +205,17 @@ public class PlayerMovement : MonoBehaviour
             anim.SetBool("isDragging_bool", true);
         }
 
-
+        if (collision.gameObject.CompareTag ("Adelante"))
+        {
+            Zuse(adelante);
+            Debug.Log("delante");
+        } 
+        
+        if (collision.gameObject.CompareTag ("Detras"))
+        {
+            Zuse(detras);
+            Debug.Log("detras");
+        }
 
 
     }
@@ -217,6 +235,11 @@ public class PlayerMovement : MonoBehaviour
     private void OnCollisionExit2D(Collision2D collision)
     {
         anim.SetBool("isSliding_bool", false);
+    }
+
+    void Zuse(float posZ)
+    {
+        transform.position = new Vector3(transform.position.x, transform.position.y, posZ); ;
     }
 
 }

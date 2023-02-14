@@ -11,6 +11,8 @@ TagManager:
   - GravityNormal
   - Empujable
   - Deslizable
+  - Adelante
+  - Detras
   layers:
   - Default
   - TransparentFX
