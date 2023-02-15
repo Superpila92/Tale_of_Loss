@@ -43,9 +43,9 @@ public class PlayerMovement : MonoBehaviour
 
     private Vector3 ChangePosition;
 
-    float adelante = 1f;
+    float adelante = 10f;
 
-    float detras = -1f;
+    float detras = -10f;
 
 
     private void Start()
