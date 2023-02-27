@@ -8,7 +8,7 @@ public class RampActivate : MonoBehaviour
 
     public PlayerMovement plyM2;
     public CameraLimits cam2;
-
+    
     // Start is called before the first frame update
     void Start()
     {
