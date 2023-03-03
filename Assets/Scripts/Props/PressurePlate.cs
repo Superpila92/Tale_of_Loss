@@ -5,6 +5,7 @@ using UnityEngine;
 public class PressurePlate : MonoBehaviour
 {
     public Vector3 originalPos;
+    public ChangeCamera cc;
     // Start is called before the first frame update
     void Start()
     {
@@ -39,7 +40,22 @@ public class PressurePlate : MonoBehaviour
             {
                 transform.Translate(0, 0.05f, 0);
             }
- 
+
+            if(transform.position.y <= -893f)
+            {
+                cc.mainCam.depth = 0;
+                cc.elevatorCam.depth = 1;
+                cc.nowMainCam = false;
+            }
+            if(transform.position.y <= -910.5f)
+            {
+                cc.mainCam.depth = 1;
+                cc.elevatorCam.depth = 0;
+                cc.nowMainCam = true;
+            }
+
+
     }
+
 
 }
