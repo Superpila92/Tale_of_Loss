@@ -12,13 +12,9 @@ public class CutAttack : MonoBehaviour
     public float attackRate = 2f;
     float nextAttackTime = 0f;
 
-    private Animator anim;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        anim = GetComponent<Animator>();
-    }
+    public ParticleSystem aura;
+
 
     // Update is called once per frame
     void Update()
@@ -28,9 +24,8 @@ public class CutAttack : MonoBehaviour
 
             if (Input.GetKeyDown(KeyCode.L))
             {
-                anim.SetBool("isAttacking", true);
-                anim.SetTrigger("isAttacking");
                 Attack();
+                aura.Play();
                 nextAttackTime = Time.time + 1f / attackRate;
 
             }
