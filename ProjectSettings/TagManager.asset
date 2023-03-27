@@ -13,6 +13,7 @@ TagManager:
   - Deslizable
   - Adelante
   - Detras
+  - llama
   layers:
   - Default
   - TransparentFX

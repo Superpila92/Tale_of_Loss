@@ -11,12 +11,14 @@ public class Key : MonoBehaviour
 
     public Transform followTarget;
 
+    public DisapearFloor floor;
+
     //public AudioSource pickKey;
 
     // Start is called before the first frame update
     void Start()
     {
-       
+        //floor.GetComponentInChildren<Collider2D>().enabled = true;
     }
 
     // Update is called once per frame
@@ -40,6 +42,8 @@ public class Key : MonoBehaviour
 
                 isFollowing = true;
                 thePlayer.followingKey = this;
+
+                floor.GetComponentInChildren<Collider2D>().enabled = false;
             }
         }
     }
