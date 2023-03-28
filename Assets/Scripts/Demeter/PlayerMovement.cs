@@ -33,6 +33,9 @@ public class PlayerMovement : MonoBehaviour
     public Transform keyFollowPoint;
     public Key followingKey;
 
+    public Transform flameFollowPoint;
+    public FlameHades followingFlame;
+
     public Collider2D goingThroughObjects;
 
     public SmoothCamera cam;

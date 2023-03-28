@@ -44,7 +44,7 @@ public class scr_CloudGenerator : MonoBehaviour
         cloud.transform.localScale = new Vector2(scale, scale);
 
 
-        float speed = UnityEngine.Random.Range(2f, 8f);
+        float speed = UnityEngine.Random.Range(5f, 15f);
         cloud.GetComponent<scr_Cloud>().StartFloating(speed, endPoint.transform.position.x);
 
     }
