@@ -50,6 +50,9 @@ public class PlayerMovement : MonoBehaviour
 
     float detras = -10f;
 
+    public bool canFlip = true;
+    public bool isPaused = false;
+    public bool noTeGires = false;
 
     private void Start()
     {
@@ -74,7 +77,22 @@ public class PlayerMovement : MonoBehaviour
         }
         horizontal = Input.GetAxisRaw("Horizontal");
 
-
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            if (isPaused == false)
+            {
+                canFlip = false;
+                isPaused = true;
+                noTeGires = true;
+            }
+            else
+            {
+                canFlip = true;
+                isPaused = false;
+                noTeGires = false;
+            }
+            
+        }
 
         Flip();
         GodMode();
@@ -140,13 +158,28 @@ public class PlayerMovement : MonoBehaviour
 
     private void Flip()
     {
-        if (isFacingRight && horizontal < 0f || !isFacingRight && horizontal > 0f)
+        if (canFlip == true)
         {
-            Vector3 localScale = transform.localScale;
-            isFacingRight = !isFacingRight;
-            localScale.x *= -1f;
-            transform.localScale = localScale;
+            if (isFacingRight && horizontal < 0f || !isFacingRight && horizontal > 0f)
+            {
+                Vector3 localScale = transform.localScale;
+                isFacingRight = !isFacingRight;
+                localScale.x *= -1f;
+                transform.localScale = localScale;
+            }
         }
+        else if ((canFlip == false) && (noTeGires = false))
+        {
+            if (!isFacingRight && horizontal > 0f)
+            {
+                Vector3 localScale = transform.localScale;
+                isFacingRight = !isFacingRight;
+                localScale.x *= -1f;
+                transform.localScale = localScale;
+            }
+        }
+
+
     }
 
     private void ZoomOut()

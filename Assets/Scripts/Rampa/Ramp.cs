@@ -19,6 +19,8 @@ public class Ramp : MonoBehaviour
             cam.damping = 0.3f;
             plyM.jumpingPower = 0f;
             plyM.speed = 0f;
+            plyM.canFlip = false;
+            
         }
 
 

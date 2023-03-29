@@ -17,6 +17,8 @@ public class PauseMenu : MonoBehaviour
     //[SerializeField] AudioSource audioSourcePause;
     //[SerializeField] AudioSource audioSourceClick;
 
+    public PlayerMovement plyM;
+
     // Update is called once per frame
     void Update()
     {
@@ -29,9 +31,17 @@ public class PauseMenu : MonoBehaviour
             else
             {
                 Pause();
+                
             }
 
         }
+
+        if (GameIsPaused == true)
+        {
+            plyM.canFlip = false;
+        }
+
+
     }
 
     public void Resume()
@@ -40,6 +50,7 @@ public class PauseMenu : MonoBehaviour
         //audioSourceClick.Play();
         Time.timeScale = 1f;
         GameIsPaused = false;
+        plyM.canFlip = true;
     }
 
     void Pause()
@@ -48,7 +59,7 @@ public class PauseMenu : MonoBehaviour
         //audioSourcePause.Play();
         Time.timeScale = 0f;
         GameIsPaused = true;
-
+        plyM.canFlip = false;
     }
 
     public void Menu()
@@ -59,5 +70,7 @@ public class PauseMenu : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         SceneManager.LoadScene("MainMenu");
     }
+
+
 
 }
