@@ -124,7 +124,7 @@ TextureImporter:
         width: 1920
         height: 137
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -145,7 +145,7 @@ TextureImporter:
         width: 1920
         height: 167
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -166,7 +166,7 @@ TextureImporter:
         width: 1920
         height: 127
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -187,7 +187,7 @@ TextureImporter:
         width: 1920
         height: 144
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -208,7 +208,7 @@ TextureImporter:
         width: 1920
         height: 219
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -216,6 +216,27 @@ TextureImporter:
       bones: []
       spriteID: 5ded8e8c09b8b2246a3fe65ceded3be0
       internalID: 1482248113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SueloFront_01_5
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 701
+        width: 725
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18873dcdb935a7c4e96888b3a4ec5925
+      internalID: 1709108042
       vertices: []
       indices: 
       edges: []
@@ -234,6 +255,7 @@ TextureImporter:
       SueloFront_01_1: -619452198
       SueloFront_01_4: 1482248113
       SueloFront_01_2: -1792494811
+      SueloFront_01_5: 1709108042
       SueloFront_01_0: 1523713631
       SueloFront_01_3: -1426751634
   spritePackingTag: 
