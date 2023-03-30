@@ -46,9 +46,9 @@ public class PlayerMovement : MonoBehaviour
 
     private Vector3 ChangePosition;
 
-    float adelante = 10f;
+    float adelante = 5f;
 
-    float detras = -10f;
+    float detras = -5f;
 
     public bool canFlip = true;
     public bool isPaused = false;
