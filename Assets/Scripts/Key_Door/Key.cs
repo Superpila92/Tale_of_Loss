@@ -24,7 +24,7 @@ public class Key : MonoBehaviour
     {
         if(isFollowing)
         {
-            transform.position = Vector3.Lerp(transform.position, followTarget.position, followSpeed * Time.deltaTime);
+            transform.position = Vector2.Lerp(transform.position, followTarget.position, followSpeed * Time.deltaTime);
         }
     }
     private void OnTriggerEnter2D(Collider2D collision)

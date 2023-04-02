@@ -95,8 +95,8 @@ public class PlayerMovement : MonoBehaviour
         }
 
         Flip();
-        GodMode();
-        Normality();
+        //GodMode();
+        //Normality();
 
         if (Input.GetButtonDown("Jump") && !isJumping)
         {
@@ -116,8 +116,10 @@ public class PlayerMovement : MonoBehaviour
         }
         if (!IsGrounded())
         {
+            isJumping = false;
             anim.SetTrigger("isFalling");
             anim.SetBool("isFalling_bool", true);
+            anim.SetBool("isWalking", false);
         }
         if (IsGrounded())
         {
@@ -153,7 +155,7 @@ public class PlayerMovement : MonoBehaviour
 
     public bool IsGrounded()
     {
-        return Physics2D.OverlapCircle(groundCheck.position, 1f, groundLayer);
+        return Physics2D.OverlapCircle(groundCheck.position, 1.25f, groundLayer);
     }
 
     private void Flip()
@@ -205,34 +207,34 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    private void GodMode()
-    {
-        if (Input.GetKey(KeyCode.G))
-        {
-            //zoomOut = true;
-            cam.damping = 0.05f;
-            cam.offset.y = 0f;
-            goingThroughObjects.enabled = false;
-            speed = 300f;
-            jumpingPower = 200f;
-            Physics2D.gravity = new Vector2(0, -8f);
+    //private void GodMode()
+    //{
+    //    if (Input.GetKey(KeyCode.G))
+    //    {
+    //        //zoomOut = true;
+    //        cam.damping = 0.05f;
+    //        cam.offset.y = 0f;
+    //        goingThroughObjects.enabled = false;
+    //        speed = 300f;
+    //        jumpingPower = 200f;
+    //        Physics2D.gravity = new Vector2(0, -8f);
 
-        }
-    }
-    private void Normality()
-    {
-        if (Input.GetKey(KeyCode.N))
-        {
-            //zoomIn = true;
-            cam.damping = 0.3f;
-            cam.offset.y = 2f;
-            speed = 24f;
-            jumpingPower = 54f;
-            goingThroughObjects.enabled = true;
-            Physics2D.gravity = new Vector2(0, -9.81f);
+    //    }
+    //}
+    //private void Normality()
+    //{
+    //    if (Input.GetKey(KeyCode.N))
+    //    {
+    //        //zoomIn = true;
+    //        cam.damping = 0.3f;
+    //        cam.offset.y = 2f;
+    //        speed = 24f;
+    //        jumpingPower = 54f;
+    //        goingThroughObjects.enabled = true;
+    //        Physics2D.gravity = new Vector2(0, -9.81f);
 
-        }
-    }
+    //    }
+    //}
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Empujable"))
