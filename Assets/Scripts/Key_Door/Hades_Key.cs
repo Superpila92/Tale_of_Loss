@@ -20,7 +20,8 @@ public class Hades_Key : MonoBehaviour
     {
         if (key.followTarget.transform == keyHere.transform)
         {
-            GetComponent<EdgeCollider2D>().enabled = false;
+            StartCoroutine(Wait());
+           
         }
        
     }
@@ -34,5 +35,10 @@ public class Hades_Key : MonoBehaviour
                 thePlayer.followingKey.followTarget = keyHere.transform;
             }
         }
+    }
+    IEnumerator Wait()
+    {
+        yield return new WaitForSeconds(4);
+        GetComponent<EdgeCollider2D>().enabled = false;
     }
 }
