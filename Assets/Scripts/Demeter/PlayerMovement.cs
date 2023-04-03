@@ -116,7 +116,7 @@ public class PlayerMovement : MonoBehaviour
         }
         if (!IsGrounded())
         {
-            isJumping = false;
+            isJumping = true;
             anim.SetTrigger("isFalling");
             anim.SetBool("isFalling_bool", true);
             anim.SetBool("isWalking", false);
@@ -155,7 +155,7 @@ public class PlayerMovement : MonoBehaviour
 
     public bool IsGrounded()
     {
-        return Physics2D.OverlapCircle(groundCheck.position, 1.25f, groundLayer);
+        return Physics2D.OverlapCircle(groundCheck.position, 1f, groundLayer);
     }
 
     private void Flip()
