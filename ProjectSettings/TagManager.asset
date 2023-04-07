@@ -15,6 +15,7 @@ TagManager:
   - Detras
   - llama
   - llama2
+  - EstatuaHades
   layers:
   - Default
   - TransparentFX

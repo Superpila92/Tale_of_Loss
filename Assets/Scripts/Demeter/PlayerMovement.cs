@@ -49,6 +49,8 @@ public class PlayerMovement : MonoBehaviour
     [Header("Zmovement")]
     float adelante = 10f;
     float detras = -10f;
+    public int Layer;
+    public GameObject DemeterZ;
 
     [Header("Flip")]
     public bool canFlip = true;
@@ -69,6 +71,8 @@ public class PlayerMovement : MonoBehaviour
         ChangePosition = transform.position;
         CreateMagic();
 
+        Renderer myRenderer = GetComponent<Renderer>();
+        myRenderer.sortingOrder = 2;
     }
 
     private void Update()
@@ -258,13 +262,15 @@ public class PlayerMovement : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Adelante"))
         {
-            Zuse(adelante);
+            ChangeLayerTo2();
+            //Zuse(adelante);
             Debug.Log("delante");
         }
 
         if (collision.gameObject.CompareTag("Detras"))
         {
-            Zuse(detras);
+            ChangeLayerTo1();
+            //Zuse(detras);
             Debug.Log("detras");
         }
 
@@ -291,6 +297,18 @@ public class PlayerMovement : MonoBehaviour
     void Zuse(float posZ)
     {
         transform.position = new Vector3(transform.position.x, transform.position.y, posZ); ;
+    }
+
+    void ChangeLayerTo2()
+    {
+        Renderer myRenderer = GetComponent<Renderer>();
+        myRenderer.sortingOrder = 2;
+    }
+
+    void ChangeLayerTo1()
+    {
+        Renderer myRenderer = GetComponent<Renderer>();
+        myRenderer.sortingOrder = 1;
     }
 
     void CreateDust()
