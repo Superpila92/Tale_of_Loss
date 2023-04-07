@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Ramp : MonoBehaviour
 {
@@ -20,9 +21,12 @@ public class Ramp : MonoBehaviour
             plyM.jumpingPower = 0f;
             plyM.speed = 0f;
             plyM.canFlip = false;
-            
+            Invoke("CanFlipDem", 14f);
         }
 
-
+    }
+    public void CanFlipDem()
+    {
+        plyM.canFlip = true;
     }
 }

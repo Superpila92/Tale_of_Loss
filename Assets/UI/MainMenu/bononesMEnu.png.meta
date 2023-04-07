@@ -119,12 +119,12 @@ TextureImporter:
       name: bononesMEnu_0
       rect:
         serializedVersion: 2
-        x: 366
-        y: 40
-        width: 243
-        height: 271
+        x: 344
+        y: 23
+        width: 294
+        height: 311
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -140,12 +140,12 @@ TextureImporter:
       name: bononesMEnu_1
       rect:
         serializedVersion: 2
-        x: 677
-        y: 46
-        width: 243
-        height: 260
+        x: 655
+        y: 25
+        width: 294
+        height: 311
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -161,12 +161,12 @@ TextureImporter:
       name: bononesMEnu_2
       rect:
         serializedVersion: 2
-        x: 987
-        y: 41
-        width: 250
-        height: 270
+        x: 965
+        y: 27
+        width: 294
+        height: 311
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -182,12 +182,12 @@ TextureImporter:
       name: bononesMEnu_3
       rect:
         serializedVersion: 2
-        x: 1314
-        y: 36
-        width: 239
-        height: 271
+        x: 1288
+        y: 29
+        width: 294
+        height: 311
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -195,6 +195,27 @@ TextureImporter:
       bones: []
       spriteID: 062e2df3c955ec241adf030e0737d87a
       internalID: -1981588743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bononesMEnu_4
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 25
+        width: 294
+        height: 311
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a790c85288cc494d83ec181d54910b4
+      internalID: -1027518964
       vertices: []
       indices: 
       edges: []
@@ -211,6 +232,7 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       bononesMEnu_1: -576918627
+      bononesMEnu_4: -1027518964
       bononesMEnu_0: -1482637695
       bononesMEnu_2: 419085998
       bononesMEnu_3: -1981588743

@@ -170,10 +170,12 @@ public class PlayerMovement : MonoBehaviour
                 transform.localScale = localScale;
             }
         }
-        else if ((canFlip == false) && (noTeGires = false))
+        else if ((canFlip == false) && (noTeGires == false))
         {
-            if (!isFacingRight && horizontal > 0f)
+            //Debug.Log("haentradoaqui2");
+            if (!isFacingRight && horizontal < 0f)
             {
+                //Debug.Log("haentradoaqui1");
                 Vector3 localScale = transform.localScale;
                 isFacingRight = !isFacingRight;
                 localScale.x *= -1f;
