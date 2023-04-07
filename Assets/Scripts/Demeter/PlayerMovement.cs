@@ -46,13 +46,19 @@ public class PlayerMovement : MonoBehaviour
 
     private Vector3 ChangePosition;
 
+    [Header("Zmovement")]
     float adelante = 10f;
-
     float detras = -10f;
 
+    [Header("Flip")]
     public bool canFlip = true;
     public bool isPaused = false;
     public bool noTeGires = false;
+
+    [Header("Particles")]
+    public ParticleSystem FlipDust;
+    public ParticleSystem FlipStar;
+    public ParticleSystem MagicDem;
 
     private void Start()
     {
@@ -61,6 +67,7 @@ public class PlayerMovement : MonoBehaviour
         anim = GetComponent<Animator>();
 
         ChangePosition = transform.position;
+        CreateMagic();
 
     }
 
@@ -91,7 +98,7 @@ public class PlayerMovement : MonoBehaviour
                 isPaused = false;
                 noTeGires = false;
             }
-            
+
         }
 
         Flip();
@@ -100,16 +107,18 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetButtonDown("Jump") && !isJumping)
         {
+            CreateDust();
+            CreateStar();
             anim.SetTrigger("isJumping");
 
             rb.velocity = new Vector2(rb.velocity.x, jumpingPower);
 
             isJumping = true;
-            
+
         }
         else
         {
-            
+
             anim.SetBool("isJumping_bool", true);
 
             isJumping = true;
@@ -164,6 +173,8 @@ public class PlayerMovement : MonoBehaviour
         {
             if (isFacingRight && horizontal < 0f || !isFacingRight && horizontal > 0f)
             {
+                CreateDust();
+                CreateStar();
                 Vector3 localScale = transform.localScale;
                 isFacingRight = !isFacingRight;
                 localScale.x *= -1f;
@@ -245,13 +256,13 @@ public class PlayerMovement : MonoBehaviour
             anim.SetBool("isDragging_bool", true);
         }
 
-        if (collision.gameObject.CompareTag ("Adelante"))
+        if (collision.gameObject.CompareTag("Adelante"))
         {
             Zuse(adelante);
             Debug.Log("delante");
-        } 
-        
-        if (collision.gameObject.CompareTag ("Detras"))
+        }
+
+        if (collision.gameObject.CompareTag("Detras"))
         {
             Zuse(detras);
             Debug.Log("detras");
@@ -281,5 +292,14 @@ public class PlayerMovement : MonoBehaviour
     {
         transform.position = new Vector3(transform.position.x, transform.position.y, posZ); ;
     }
+
+    void CreateDust()
+    {   FlipDust.Play();    }
+
+    void CreateStar()
+    {   FlipStar.Play();    }
+
+    void CreateMagic()
+    {   MagicDem.Play();    }
 
 }
