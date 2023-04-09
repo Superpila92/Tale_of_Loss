@@ -302,13 +302,13 @@ public class PlayerMovement : MonoBehaviour
     void ChangeLayerTo2()
     {
         Renderer myRenderer = GetComponent<Renderer>();
-        myRenderer.sortingOrder = 2;
+        myRenderer.sortingOrder = 1;
     }
 
     void ChangeLayerTo1()
     {
         Renderer myRenderer = GetComponent<Renderer>();
-        myRenderer.sortingOrder = 1;
+        myRenderer.sortingOrder = 2;
     }
 
     void CreateDust()
