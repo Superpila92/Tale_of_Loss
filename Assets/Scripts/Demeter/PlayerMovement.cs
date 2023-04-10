@@ -62,6 +62,18 @@ public class PlayerMovement : MonoBehaviour
     public ParticleSystem FlipStar;
     public ParticleSystem MagicDem;
 
+    [Header("Tutorial")]
+    public GameObject WASD;
+    public GameObject Salto;
+    public GameObject FlechaSalto;
+    public GameObject FlechitaArrastre;
+    public GameObject Ltuto;
+    public GameObject Romper;
+    public GameObject FlechitaUp;
+    public GameObject FlechitaTemplo;
+    public static bool FlechaActivada = false;
+
+
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -274,8 +286,34 @@ public class PlayerMovement : MonoBehaviour
             Debug.Log("detras");
         }
 
+        if (collision.gameObject.CompareTag("FlechitaSalto"))
+        {
+            //WASD.SetActive(true);
+            //Salto.SetActive(true);
+            FlechaSalto.SetActive(true);
+            FlechitaArrastre.SetActive(true);
+            //Ltuto.SetActive(true);
+            Romper.SetActive(true);
+            FlechitaUp.SetActive(true);
+            FlechitaTemplo.SetActive(true);
+            FlechaActivada = true;
+        }
 
-    }
+        if (collision.gameObject.CompareTag("FlechitaSaltoOff"))
+        {
+            //WASD.SetActive(false);
+            //Salto.SetActive(false);
+            FlechaSalto.SetActive(false);
+            FlechitaArrastre.SetActive(false);
+            //Ltuto.SetActive(false);
+            Romper.SetActive(false);
+            FlechitaUp.SetActive(false);
+            FlechitaTemplo.SetActive(false);
+            FlechaActivada = false;
+        }
+           
+
+}
     private void OnTriggerExit2D(Collider2D collision)
     {
         anim.SetBool("isDragging_bool", false);

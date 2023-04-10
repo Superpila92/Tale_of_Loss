@@ -16,6 +16,8 @@ TagManager:
   - llama
   - llama2
   - EstatuaHades
+  - FlechitaSalto
+  - FlechitaSaltoOff
   layers:
   - Default
   - TransparentFX
