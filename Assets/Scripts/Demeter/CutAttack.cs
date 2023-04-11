@@ -24,6 +24,8 @@ public class CutAttack : MonoBehaviour
 
             if (Input.GetKeyDown(KeyCode.L))
             {
+
+                StartCoroutine(Wait());
                 Attack();
                 aura.Play();
                 nextAttackTime = Time.time + 1f / attackRate;
@@ -52,5 +54,11 @@ public class CutAttack : MonoBehaviour
         }
 
         Gizmos.DrawWireSphere(attackPoint.position, attackRange);
+    }
+    IEnumerator Wait()
+    {
+
+        yield return new WaitForSeconds(1);
+        //GetComponent<EdgeCollider2D>().enabled = false;
     }
 }

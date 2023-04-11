@@ -288,11 +288,11 @@ public class PlayerMovement : MonoBehaviour
 
         if (collision.gameObject.CompareTag("FlechitaSalto"))
         {
-            //WASD.SetActive(true);
-            //Salto.SetActive(true);
+            WASD.SetActive(true);
+            Salto.SetActive(true);
             FlechaSalto.SetActive(true);
             FlechitaArrastre.SetActive(true);
-            //Ltuto.SetActive(true);
+            Ltuto.SetActive(true);
             Romper.SetActive(true);
             FlechitaUp.SetActive(true);
             FlechitaTemplo.SetActive(true);
@@ -301,11 +301,11 @@ public class PlayerMovement : MonoBehaviour
 
         if (collision.gameObject.CompareTag("FlechitaSaltoOff"))
         {
-            //WASD.SetActive(false);
-            //Salto.SetActive(false);
+            WASD.SetActive(false);
+            Salto.SetActive(false);
             FlechaSalto.SetActive(false);
             FlechitaArrastre.SetActive(false);
-            //Ltuto.SetActive(false);
+            Ltuto.SetActive(false);
             Romper.SetActive(false);
             FlechitaUp.SetActive(false);
             FlechitaTemplo.SetActive(false);
