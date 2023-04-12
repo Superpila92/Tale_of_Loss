@@ -29,7 +29,7 @@ public class Hades_Key : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
-            if (thePlayer.followingKey != null)
+            if (thePlayer.followingKey != null && key.isFollowing)
             {
 
                 thePlayer.followingKey.followTarget = keyHere.transform;

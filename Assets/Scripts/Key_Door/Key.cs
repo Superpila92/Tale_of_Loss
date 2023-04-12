@@ -5,7 +5,7 @@ using UnityEngine.Audio;
 
 public class Key : MonoBehaviour
 {
-    private bool isFollowing;
+    public bool isFollowing;
 
     public float followSpeed;
 
