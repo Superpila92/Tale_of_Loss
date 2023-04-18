@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    private bool isJumping;
+    public bool isJumping;
 
     private float horizontal;
     //private float vertical;
@@ -41,6 +41,8 @@ public class PlayerMovement : MonoBehaviour
     public SmoothCamera cam;
 
     public AudioSource jump;
+
+    public Footsteps footsteps;
 
     public Animator anim;
 
@@ -95,7 +97,6 @@ public class PlayerMovement : MonoBehaviour
         }
         else
         {
-
             anim.SetBool("isWalking", true);
         }
         horizontal = Input.GetAxisRaw("Horizontal");
@@ -130,7 +131,7 @@ public class PlayerMovement : MonoBehaviour
             rb.velocity = new Vector2(rb.velocity.x, jumpingPower);
 
             isJumping = true;
-
+            footsteps.Stopfootsteps();
         }
         else
         {
@@ -145,14 +146,19 @@ public class PlayerMovement : MonoBehaviour
             anim.SetTrigger("isFalling");
             anim.SetBool("isFalling_bool", true);
             anim.SetBool("isWalking", false);
+            footsteps.Stopfootsteps();
         }
         if (IsGrounded())
         {
             anim.SetBool("isFalling", false);
             isJumping = false;
             anim.SetBool("isJumping_bool", false);
+            footsteps.footsteps();
 
-
+        }
+        if(IsGrounded() && horizontal == 0)
+        {
+            footsteps.Stopfootsteps();
         }
 
 
@@ -235,35 +241,6 @@ public class PlayerMovement : MonoBehaviour
             zoomIn = false;
         }
     }
-
-    //private void GodMode()
-    //{
-    //    if (Input.GetKey(KeyCode.G))
-    //    {
-    //        //zoomOut = true;
-    //        cam.damping = 0.05f;
-    //        cam.offset.y = 0f;
-    //        goingThroughObjects.enabled = false;
-    //        speed = 300f;
-    //        jumpingPower = 200f;
-    //        Physics2D.gravity = new Vector2(0, -8f);
-
-    //    }
-    //}
-    //private void Normality()
-    //{
-    //    if (Input.GetKey(KeyCode.N))
-    //    {
-    //        //zoomIn = true;
-    //        cam.damping = 0.3f;
-    //        cam.offset.y = 2f;
-    //        speed = 24f;
-    //        jumpingPower = 54f;
-    //        goingThroughObjects.enabled = true;
-    //        Physics2D.gravity = new Vector2(0, -9.81f);
-
-    //    }
-    //}
     private void OnTriggerEnter2D(Collider2D collision)
     {
         //if (collision.gameObject.CompareTag("Empujable"))
