@@ -63,7 +63,7 @@ public class OptionMenu : MonoBehaviour
         }
         else if (ResolutionIndex == 1)
         {
-            Screen.SetResolution(1600, 1200, true);
+            Screen.SetResolution(1600, 900, true);
             Debug.Log("resolucion 1");
         }
         else if (ResolutionIndex == 2)
