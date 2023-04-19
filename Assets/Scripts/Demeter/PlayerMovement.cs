@@ -42,6 +42,8 @@ public class PlayerMovement : MonoBehaviour
 
     public AudioSource jump;
 
+
+
     public Footsteps footsteps;
 
     public Animator anim;
@@ -132,6 +134,7 @@ public class PlayerMovement : MonoBehaviour
 
             isJumping = true;
             footsteps.Stopfootsteps();
+            jump.Play();
         }
         else
         {
@@ -147,6 +150,8 @@ public class PlayerMovement : MonoBehaviour
             anim.SetBool("isFalling_bool", true);
             anim.SetBool("isWalking", false);
             footsteps.Stopfootsteps();
+
+            
         }
         if (IsGrounded())
         {
@@ -160,6 +165,7 @@ public class PlayerMovement : MonoBehaviour
         {
             footsteps.Stopfootsteps();
         }
+
 
 
         //Camera Updates
