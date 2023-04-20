@@ -18,7 +18,7 @@ public class TroncoHitSound1 : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Respawn"))
+        if (collision.gameObject.CompareTag("Empujable"))
         {
             BigHit.Play();
         }

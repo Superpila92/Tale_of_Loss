@@ -8,6 +8,8 @@ public class Hades_Key : MonoBehaviour
     public Transform keyHere;
     public Key key;
 
+    public AudioSource keySet;
+
     //public GameObject collectEffect;
     // Start is called before the first frame update
     void Start()
@@ -29,16 +31,25 @@ public class Hades_Key : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
+
             if (thePlayer.followingKey != null && key.isFollowing)
             {
 
                 thePlayer.followingKey.followTarget = keyHere.transform;
             }
+            StartCoroutine(SoundWait());
+
         }
+
     }
     IEnumerator Wait()
     {
         yield return new WaitForSeconds(4);
         GetComponent<EdgeCollider2D>().enabled = false;
+    }
+    IEnumerator SoundWait()
+    {
+        yield return new WaitForSeconds(3.5f);
+        keySet.Play();
     }
 }

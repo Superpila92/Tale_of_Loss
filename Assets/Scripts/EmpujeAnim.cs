@@ -24,4 +24,5 @@ public class EmpujeAnim : MonoBehaviour
             ply.anim.SetBool("isDragging_bool", true);
         }
     }
+
 }

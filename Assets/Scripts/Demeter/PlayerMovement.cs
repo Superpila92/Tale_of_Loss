@@ -42,9 +42,13 @@ public class PlayerMovement : MonoBehaviour
 
     public AudioSource jump;
 
-
+    public AudioSource sparkleSound;
 
     public Footsteps footsteps;
+
+    public snow_Footsteps snowfootsteps;
+
+    public bool inSnow = true;
 
     public Animator anim;
 
@@ -134,7 +138,9 @@ public class PlayerMovement : MonoBehaviour
 
             isJumping = true;
             footsteps.Stopfootsteps();
+            snowfootsteps.StopSnowFootsteps();
             jump.Play();
+            sparkleSound.Play();
         }
         else
         {
@@ -150,20 +156,32 @@ public class PlayerMovement : MonoBehaviour
             anim.SetBool("isFalling_bool", true);
             anim.SetBool("isWalking", false);
             footsteps.Stopfootsteps();
+            snowfootsteps.StopSnowFootsteps();
 
-            
+
         }
         if (IsGrounded())
         {
             anim.SetBool("isFalling", false);
             isJumping = false;
             anim.SetBool("isJumping_bool", false);
-            footsteps.footsteps();
+            //footsteps.footsteps();
+
+            if(inSnow == true)
+            {
+                snowfootsteps.SnowFootsteps();
+            }
+            if (inSnow == false)
+            {
+                footsteps.footsteps();
+            }
+
 
         }
         if(IsGrounded() && horizontal == 0)
         {
             footsteps.Stopfootsteps();
+            snowfootsteps.StopSnowFootsteps();
         }
 
 
@@ -300,7 +318,8 @@ public class PlayerMovement : MonoBehaviour
     private void OnTriggerExit2D(Collider2D collision)
     {
         anim.SetBool("isDragging_bool", false);
-
+        inSnow = true;
+        snowfootsteps.SnowFootsteps();
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -341,4 +360,13 @@ public class PlayerMovement : MonoBehaviour
     void CreateMagic()
     {   MagicDem.Play();    }
 
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Weapon"))
+        {
+            inSnow = false;
+            snowfootsteps.StopSnowFootsteps();
+            Debug.Log("notsnow");
+        }
+    }
 }

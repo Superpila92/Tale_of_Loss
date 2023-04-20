@@ -12,7 +12,7 @@ public class FlameHades : MonoBehaviour
 
     public DisapearFloor floor;
 
-    //public AudioSource pickKey;
+    public AudioSource pickFlame;
 
     // Start is called before the first frame update
     void Start()
@@ -35,7 +35,7 @@ public class FlameHades : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
-            //pickKey.Play();
+            pickFlame.Play();
             if (!isFollowingFlame)
             {
                 PlayerMovement thePlayer = FindObjectOfType<PlayerMovement>();

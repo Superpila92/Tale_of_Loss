@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class CutAttack : MonoBehaviour
 {
@@ -15,20 +16,27 @@ public class CutAttack : MonoBehaviour
 
     public ParticleSystem aura;
 
+    public AudioSource attackSound;
 
+    private void Start()
+    {
+        AudioSource audio = GetComponent<AudioSource>();
+    }
     // Update is called once per frame
     void Update()
     {
         if(Time.time >= nextAttackTime)
         {
 
-            if (Input.GetKeyDown(KeyCode.L))
+            if (Input.GetKeyDown(KeyCode.C) || Input.GetKeyDown(KeyCode.L))
             {
 
                 StartCoroutine(Wait());
                 Attack();
                 aura.Play();
                 nextAttackTime = Time.time + 1f / attackRate;
+
+                attackSound.Play();
 
             }
             
