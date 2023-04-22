@@ -50,10 +50,10 @@ public class FlameHades : MonoBehaviour
                 myRenderer.sortingOrder = 2;
             }
         }
-        else if (collision.tag == "EstatuaHades")
+        if(collision.tag == "EstatuaHades")
         {
             Renderer myRenderer = GetComponent<Renderer>();
-            myRenderer.sortingOrder = 6;
+            myRenderer.sortingOrder = 4;
         }
     }
 }

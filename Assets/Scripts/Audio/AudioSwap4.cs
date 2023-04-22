@@ -13,11 +13,11 @@ public class AudioSwap4 : MonoBehaviour
             AudioManager4.instance.SwapTrack(newTrack);
         }
     }
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            AudioManager4.instance.ReturnToTrack1();
-        }
-    }
+    //private void OnTriggerExit2D(Collider2D collision)
+    //{
+    //    if (collision.gameObject.CompareTag("Player"))
+    //    {
+    //        AudioManager4.instance.ReturnToTrack1();
+    //    }
+    //}
 }
