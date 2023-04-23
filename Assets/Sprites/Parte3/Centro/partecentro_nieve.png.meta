@@ -1,0 +1,992 @@
+fileFormatVersion: 2
+guid: 01569a10a53bffd4abe287744ba922af
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: partecentro_nieve_0
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 1952
+        width: 103
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b17209dbe091c4988e937f1e536cfd
+      internalID: -189861262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: partecentro_nieve_1
+      rect:
+        serializedVersion: 2
+        x: 2354
+        y: 2052
+        width: 118
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59dbc61f80399564592e78af87b97577
+      internalID: 1032352872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: partecentro_nieve_2
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 1934
+        width: 139
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85098311b1158004aaf78a2d34c29341
+      internalID: 1610002058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: partecentro_nieve_3
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 1699
+        width: 104
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ebdf7cd00fc01949b2accf68ca9be30
+      internalID: -780486784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: partecentro_nieve_4
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 1653
+        width: 128
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 174aca7a1b953bb4ca6e033e56861ea1
+      internalID: -735129195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: partecentro_nieve_5
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1586
+        width: 182
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f2f801a906edc4f928db9a2ccccd0e
+      internalID: -1937523209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: partecentro_nieve_6
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 1618
+        width: 144
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad91fcdd9395bf4bbff484007221888
+      internalID: 1795725641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: partecentro_nieve_7
+      rect:
+        serializedVersion: 2
+        x: 1927
+        y: 1563
+        width: 152
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6261ff356fba9a140ad9c842d7a57d6c
+      internalID: -14155067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: partecentro_nieve_8
+      rect:
+        serializedVersion: 2
+        x: 2351
+        y: 1610
+        width: 57
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6db00edee15bd0a4697c379935b2da97
+      internalID: -1743798515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: partecentro_nieve_9
+      rect:
+        serializedVersion: 2
+        x: 2428
+        y: 1607
+        width: 80
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f84a50920942c843ab634f35a068ec3
+      internalID: 1445870854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: partecentro_nieve_10
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1523
+        width: 69
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd4ea6e7e99afd64d8329d68d5d6ebb6
+      internalID: 413852873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: partecentro_nieve_11
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 1553
+        width: 57
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d315b30bad8f21a4d92ef5f5b86ca537
+      internalID: 1689812921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: partecentro_nieve_12
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 1566
+        width: 106
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c38c51e8cdd0a0e41b0f7d6b7c35d89f
+      internalID: -1355213078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: partecentro_nieve_13
+      rect:
+        serializedVersion: 2
+        x: 1763
+        y: 1567
+        width: 74
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 846fe1abb2c863b40a377f56c0573863
+      internalID: 179000663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: partecentro_nieve_14
+      rect:
+        serializedVersion: 2
+        x: 2236
+        y: 1552
+        width: 86
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c9b2e1f18c9afd4994b2d65bece9ef6
+      internalID: -1169547484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: partecentro_nieve_15
+      rect:
+        serializedVersion: 2
+        x: 2499
+        y: 1534
+        width: 117
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cfc52e4128110c48964bdda0d85390f
+      internalID: 208514521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: partecentro_nieve_16
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 1534
+        width: 90
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c48638edf87e3d44b87b2bd66089ca69
+      internalID: 2032772618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: partecentro_nieve_17
+      rect:
+        serializedVersion: 2
+        x: 2393
+        y: 1464
+        width: 118
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af60cd7d97e78954b862f8b5c975c39d
+      internalID: 2127249384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: partecentro_nieve_18
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 1307
+        width: 92
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7538381ba9b74a49b5b2039add1a94c
+      internalID: 2076790979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: partecentro_nieve_19
+      rect:
+        serializedVersion: 2
+        x: 2233
+        y: 1270
+        width: 150
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 450ae56fc08bd774db6408dc49c142f7
+      internalID: -1557108987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: partecentro_nieve_20
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 1275
+        width: 167
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 498a3e3b1bead154aaabc73866a87e84
+      internalID: 49749305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: partecentro_nieve_21
+      rect:
+        serializedVersion: 2
+        x: 1763
+        y: 1282
+        width: 41
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df8948a33994a48458ff124d846338ed
+      internalID: -2061801517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: partecentro_nieve_22
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 1224
+        width: 169
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4125e681f06134d4a8a60fb62303677b
+      internalID: -959073165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: partecentro_nieve_23
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 1247
+        width: 117
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46b6d0231602d804f8c494a5ccb6b49a
+      internalID: -460258518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: partecentro_nieve_24
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 1164
+        width: 146
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e3c1ca450077f14689585ff5eb6fcef
+      internalID: -1582315280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: partecentro_nieve_25
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 1140
+        width: 289
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b337c0fde22d1f4394d1315747c5b63
+      internalID: -279890966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: partecentro_nieve_26
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 1163
+        width: 246
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b921601505b8e840badd437484c7331
+      internalID: -1113560579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: partecentro_nieve_27
+      rect:
+        serializedVersion: 2
+        x: 2173
+        y: 1167
+        width: 146
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49fa589d051aae74283798d48c3f6c34
+      internalID: -2078838458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: partecentro_nieve_28
+      rect:
+        serializedVersion: 2
+        x: 2399
+        y: 1108
+        width: 211
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 784bbb64580fcf443be2cc4a52b89585
+      internalID: -142062124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: partecentro_nieve_29
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 833
+        width: 93
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18bc522cd74f6814596d5567e2e6081f
+      internalID: 314826063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: partecentro_nieve_30
+      rect:
+        serializedVersion: 2
+        x: 2566
+        y: 868
+        width: 69
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e02c30b353bb0b448afcf67e4d6cac6
+      internalID: 208611603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: partecentro_nieve_31
+      rect:
+        serializedVersion: 2
+        x: 2313
+        y: 544
+        width: 154
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41bb6cd53b0430f438041249d9accf27
+      internalID: 1042208309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: partecentro_nieve_32
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 465
+        width: 111
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23483971dc682c642998f8ad01b87008
+      internalID: 11771749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: partecentro_nieve_33
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 286
+        width: 78
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72dc956d8e7330942b646f6ee0b470b2
+      internalID: 41857295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: partecentro_nieve_34
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 323
+        width: 113
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56393f5cd28b6094fa3837a226b591ac
+      internalID: 753696757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: partecentro_nieve_35
+      rect:
+        serializedVersion: 2
+        x: 2582
+        y: 311
+        width: 122
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87f3d5ea6c1a9f4daca5d31a8a1da8f
+      internalID: 1112464299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: partecentro_nieve_36
+      rect:
+        serializedVersion: 2
+        x: 2539
+        y: 215
+        width: 150
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de32632105edf8b46b892f86fe99b6ca
+      internalID: -578431240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: partecentro_nieve_37
+      rect:
+        serializedVersion: 2
+        x: 2314
+        y: 80
+        width: 162
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6089b65d412d3f4085cede5353fe75d
+      internalID: 706801953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: partecentro_nieve_38
+      rect:
+        serializedVersion: 2
+        x: 2506
+        y: 149
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b0dd61120714b441b76088fd7d012bd
+      internalID: 1261302062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      partecentro_nieve_29: 314826063
+      partecentro_nieve_33: 41857295
+      partecentro_nieve_11: 1689812921
+      partecentro_nieve_24: -1582315280
+      partecentro_nieve_14: -1169547484
+      partecentro_nieve_36: -578431240
+      partecentro_nieve_26: -1113560579
+      partecentro_nieve_23: -460258518
+      partecentro_nieve_25: -279890966
+      partecentro_nieve_5: -1937523209
+      partecentro_nieve_20: 49749305
+      partecentro_nieve_6: 1795725641
+      partecentro_nieve_13: 179000663
+      partecentro_nieve_27: -2078838458
+      partecentro_nieve_2: 1610002058
+      partecentro_nieve_18: 2076790979
+      partecentro_nieve_38: 1261302062
+      partecentro_nieve_9: 1445870854
+      partecentro_nieve_19: -1557108987
+      partecentro_nieve_1: 1032352872
+      partecentro_nieve_7: -14155067
+      partecentro_nieve_21: -2061801517
+      partecentro_nieve_30: 208611603
+      partecentro_nieve_22: -959073165
+      partecentro_nieve_12: -1355213078
+      partecentro_nieve_32: 11771749
+      partecentro_nieve_34: 753696757
+      partecentro_nieve_35: 1112464299
+      partecentro_nieve_17: 2127249384
+      partecentro_nieve_37: 706801953
+      partecentro_nieve_0: -189861262
+      partecentro_nieve_8: -1743798515
+      partecentro_nieve_4: -735129195
+      partecentro_nieve_15: 208514521
+      partecentro_nieve_16: 2032772618
+      partecentro_nieve_3: -780486784
+      partecentro_nieve_28: -142062124
+      partecentro_nieve_31: 1042208309
+      partecentro_nieve_10: 413852873
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
