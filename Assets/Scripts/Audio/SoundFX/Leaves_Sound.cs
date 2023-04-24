@@ -5,7 +5,7 @@ using UnityEngine.Audio;
 
 public class Leaves_Sound : MonoBehaviour
 {
-    public AudioSource leaf;
+    //public AudioSource leaf;
 
     // Start is called before the first frame update
     void Start()
@@ -22,14 +22,14 @@ public class Leaves_Sound : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            leaf.Play();
+            //leaf.Play();
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            leaf.Stop();
+            //leaf.Stop();
         }
     }
 }

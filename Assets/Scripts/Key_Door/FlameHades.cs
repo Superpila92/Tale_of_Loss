@@ -14,12 +14,11 @@ public class FlameHades : MonoBehaviour
 
     public AudioSource pickFlame;
 
+
     // Start is called before the first frame update
     void Start()
     {
-        Renderer myRenderer = GetComponent<Renderer>();
-        myRenderer.sortingOrder = 0;
-        //floor.GetComponentInChildren<Collider2D>().enabled = true;
+
     }
 
     // Update is called once per frame
@@ -28,7 +27,6 @@ public class FlameHades : MonoBehaviour
         if (isFollowingFlame)
         {
             transform.position = Vector3.Lerp(transform.position, Target.position, Speed * Time.deltaTime);
-            
         }
     }
     private void OnTriggerEnter2D(Collider2D collision)
@@ -46,15 +44,10 @@ public class FlameHades : MonoBehaviour
                 thePlayer.followingFlame = this;
 
                 floor.GetComponentInChildren<Collider2D>().enabled = false;
-                Renderer myRenderer = GetComponent<Renderer>();
-                myRenderer.sortingOrder = 2;
+
             }
         }
-        if(collision.tag == "EstatuaHades")
-        {
-            Renderer myRenderer = GetComponent<Renderer>();
-            myRenderer.sortingOrder = 4;
-        }
+
     }
 }
 
