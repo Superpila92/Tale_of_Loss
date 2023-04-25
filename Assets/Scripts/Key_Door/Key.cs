@@ -42,6 +42,7 @@ public class Key : MonoBehaviour
                 thePlayer.followingKey = this;
             }
         }
+
     }
 
 }

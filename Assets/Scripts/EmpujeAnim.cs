@@ -24,5 +24,12 @@ public class EmpujeAnim : MonoBehaviour
             ply.anim.SetBool("isDragging_bool", true);
         }
     }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Empujable"))
+        {
+            ply.anim.SetBool("isDragging_bool", false);
+        }
+    }
 
 }

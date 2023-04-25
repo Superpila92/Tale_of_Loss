@@ -35,6 +35,12 @@ public class PlayerMovement : MonoBehaviour
 
     public Transform flameFollowPoint;
     public FlameHades followingFlame;
+    public Llama_01 followingLlama01;
+    public Llama_02 followingLlama02;
+    public Llama_03 followingLlama03;
+    public Llama_04 followingLlama04;
+    public Megallama followingMegallama;
+
 
     public Collider2D goingThroughObjects;
 
@@ -317,7 +323,7 @@ public class PlayerMovement : MonoBehaviour
 }
     private void OnTriggerExit2D(Collider2D collision)
     {
-        anim.SetBool("isDragging_bool", false);
+        //anim.SetBool("isDragging_bool", false);
         inSnow = true;
         snowfootsteps.SnowFootsteps();
     }

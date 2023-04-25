@@ -18,6 +18,7 @@ TagManager:
   - EstatuaHades
   - FlechitaSalto
   - FlechitaSaltoOff
+  - Llamita3_01
   layers:
   - Default
   - TransparentFX
