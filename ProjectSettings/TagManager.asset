@@ -65,3 +65,9 @@ TagManager:
   - name: FrontPlayer
     uniqueID: 4240922147
     locked: 0
+  - name: delantellama
+    uniqueID: 2035482145
+    locked: 0
+  - name: detrasllama
+    uniqueID: 40926933
+    locked: 0
