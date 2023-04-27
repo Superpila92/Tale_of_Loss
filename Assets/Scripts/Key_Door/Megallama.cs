@@ -23,8 +23,7 @@ public class Megallama : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        megaF.gameObject.GetComponent<Collider2D>().enabled = false;
-        megaFlame.Stop();
+
     }
 
     // Update is called once per frame
@@ -35,8 +34,17 @@ public class Megallama : MonoBehaviour
             transform.position = Vector2.Lerp(transform.position, followTarget.position, followSpeed * Time.deltaTime);
         }
 
-        if(Activada1 == true && Activada2 == true && Activada3 == true && Activada4 == true)
+        if (Activada1 == false && Activada2 == false && Activada3 == false && Activada4 == false)
         {
+            //megaFlame.gameObject.SetActive(false);
+            megaF.gameObject.GetComponent<Collider2D>().enabled = false;
+            megaFlame.Stop();
+            
+        }
+
+        if (Activada1 == true && Activada2 == true && Activada3 == true && Activada4 == true)
+        {
+            //megaFlame.gameObject.SetActive(true);
             megaF.gameObject.GetComponent<Collider2D>().enabled = true;
             megaFlame.Play();
         }
