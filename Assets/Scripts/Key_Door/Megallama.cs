@@ -18,12 +18,14 @@ public class Megallama : MonoBehaviour
     public bool Activada3 = false;
     public bool Activada4 = false;
 
-    public ParticleSystem megaFlame;
+    private ParticleSystem megaFlame;
     public GameObject megaF;
     // Start is called before the first frame update
     void Start()
     {
-
+        megaFlame = gameObject.GetComponent<ParticleSystem>();
+        megaFlame.Stop();
+        megaF.gameObject.GetComponent<Collider2D>().enabled = false;
     }
 
     // Update is called once per frame
@@ -34,19 +36,11 @@ public class Megallama : MonoBehaviour
             transform.position = Vector2.Lerp(transform.position, followTarget.position, followSpeed * Time.deltaTime);
         }
 
-        if (Activada1 == false && Activada2 == false && Activada3 == false && Activada4 == false)
-        {
-            //megaFlame.gameObject.SetActive(false);
-            megaF.gameObject.GetComponent<Collider2D>().enabled = false;
-            megaFlame.Stop();
-            
-        }
-
         if (Activada1 == true && Activada2 == true && Activada3 == true && Activada4 == true)
         {
-            //megaFlame.gameObject.SetActive(true);
-            megaF.gameObject.GetComponent<Collider2D>().enabled = true;
             megaFlame.Play();
+            megaF.gameObject.GetComponent<Collider2D>().enabled = true;
+
         }
     }
     private void OnTriggerEnter2D(Collider2D collision)

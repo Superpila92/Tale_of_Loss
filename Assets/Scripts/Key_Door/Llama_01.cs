@@ -11,7 +11,7 @@ public class Llama_01 : MonoBehaviour
 
     public Transform followTarget;
 
-    public AudioSource pickKey;
+    //public AudioSource pickKey;
 
 
     // Start is called before the first frame update
@@ -32,12 +32,12 @@ public class Llama_01 : MonoBehaviour
     {
         if(collision.tag == "Player")
         {
-           pickKey.Play();
+           //pickKey.Play();
             if(!isFollowing)
             {
                 PlayerMovement thePlayer = FindObjectOfType<PlayerMovement>();
 
-                followTarget = thePlayer.keyFollowPoint;
+                followTarget = thePlayer.llama01;
 
                 isFollowing = true;
                 thePlayer.followingLlama01 = this;

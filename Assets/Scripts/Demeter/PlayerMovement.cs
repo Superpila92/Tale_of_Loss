@@ -35,10 +35,20 @@ public class PlayerMovement : MonoBehaviour
 
     public Transform flameFollowPoint;
     public FlameHades followingFlame;
+
     public Llama_01 followingLlama01;
+    public Transform llama01;
+
     public Llama_02 followingLlama02;
+    public Transform llama02;
+
     public Llama_03 followingLlama03;
+    public Transform llama03;
+
+
     public Llama_04 followingLlama04;
+    public Transform llama04;
+
     public Megallama followingMegallama;
 
 

@@ -21,7 +21,7 @@ public class HoplitaColocado : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.gameObject.CompareTag("Weapon"))
+        if(collision.gameObject.CompareTag("Finish"))
         {
             hoplita = true;
             clickHoplita.Play();

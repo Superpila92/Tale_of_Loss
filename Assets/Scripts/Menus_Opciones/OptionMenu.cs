@@ -56,7 +56,7 @@ public class OptionMenu : MonoBehaviour
 
     public void SetScreenRes(int ResolutionIndex)
     {
-        if (ResolutionIndex == 0)
+        if (ResolutionIndex == 2)
         {
             Screen.SetResolution(1280, 720, true);
             Debug.Log("resolucion 2");
@@ -66,7 +66,7 @@ public class OptionMenu : MonoBehaviour
             Screen.SetResolution(1600, 900, true);
             Debug.Log("resolucion 1");
         }
-        else if (ResolutionIndex == 2)
+        else if (ResolutionIndex == 0)
         {
             Screen.SetResolution(1920, 1080, true);
             Debug.Log("resolucion 0");
