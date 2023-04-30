@@ -415,8 +415,8 @@ TextureImporter:
         serializedVersion: 2
         x: 982
         y: 123
-        width: 340
-        height: 208
+        width: 108
+        height: 96
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -436,10 +436,10 @@ TextureImporter:
         serializedVersion: 2
         x: 754
         y: 122
-        width: 183
-        height: 113
+        width: 59
+        height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -457,10 +457,10 @@ TextureImporter:
         serializedVersion: 2
         x: 579
         y: 121
-        width: 129
-        height: 81
+        width: 43
+        height: 41
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -478,8 +478,8 @@ TextureImporter:
         serializedVersion: 2
         x: 1357
         y: 123
-        width: 363
-        height: 223
+        width: 113
+        height: 106
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -499,8 +499,8 @@ TextureImporter:
         serializedVersion: 2
         x: 1761
         y: 123
-        width: 393
-        height: 238
+        width: 122
+        height: 112
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -531,6 +531,111 @@ TextureImporter:
       bones: []
       spriteID: e1eac5849605905408fdf9282649fe3d
       internalID: 453746469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teclado_17
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 121
+        width: 43
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d26f97f7c4ad9640b13d72cf897e7fa
+      internalID: -1572511904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teclado_18
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 122
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 707f1e11e11804942b01ec9e42150453
+      internalID: -1750832698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teclado_19
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 123
+        width: 108
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd242a0c967217469d9145c30bc7d66
+      internalID: 757870170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teclado_20
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 122
+        width: 113
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd86530ce323cbe459faf2af27f3ea68
+      internalID: -824596648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teclado_21
+      rect:
+        serializedVersion: 2
+        x: 2029
+        y: 123
+        width: 122
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79728533a8646134d9a5f5be13e1f643
+      internalID: -554073270
       vertices: []
       indices: 
       edges: []

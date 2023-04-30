@@ -9,6 +9,7 @@ public class Ramp : MonoBehaviour
     public PlayerMovement plyM;
     public CameraLimits cam;
 
+
     // Start is called before the first frame update
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -22,11 +23,16 @@ public class Ramp : MonoBehaviour
             plyM.speed = 0f;
             plyM.canFlip = false;
             Invoke("CanFlipDem", 14f);
+            plyM.FlipDust2.Play();
         }
+
 
     }
     public void CanFlipDem()
     {
         plyM.canFlip = true;
+        plyM.FlipDust2.Stop();
     }
+
+
 }

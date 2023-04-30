@@ -36,7 +36,7 @@ public class Megallama : MonoBehaviour
             transform.position = Vector2.Lerp(transform.position, followTarget.position, followSpeed * Time.deltaTime);
         }
 
-        if (Activada1 == true && Activada2 == true && Activada3 == true && Activada4 == true)
+        if ((Activada1 == true) && (Activada2 == true) && (Activada3 == true) && (Activada4 == true))
         {
             megaFlame.Play();
             megaF.gameObject.GetComponent<Collider2D>().enabled = true;

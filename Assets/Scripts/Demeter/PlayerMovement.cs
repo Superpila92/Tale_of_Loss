@@ -83,16 +83,21 @@ public class PlayerMovement : MonoBehaviour
 
     [Header("Particles")]
     public ParticleSystem FlipDust;
+    public ParticleSystem FlipDust2;
     public ParticleSystem FlipStar;
     public ParticleSystem MagicDem;
 
     [Header("Tutorial")]
-    public GameObject WASD;
+    public GameObject A;
+    public GameObject D;
+    public GameObject Flecha1;
+    public GameObject Flecha2;
     public GameObject Salto;
     public GameObject FlechaSalto;
     public GameObject FlechitaArrastre;
     public GameObject Ltuto;
     public GameObject Romper;
+    public GameObject Romper2;
     public GameObject FlechitaUp;
     public GameObject FlechitaTemplo;
     public static bool FlechaActivada = false;
@@ -305,12 +310,16 @@ public class PlayerMovement : MonoBehaviour
 
         if (collision.gameObject.CompareTag("FlechitaSalto"))
         {
-            WASD.SetActive(true);
+            A.SetActive(true);
+            D.SetActive(true);
+            Flecha1.SetActive(true);
+            Flecha2.SetActive(true);
             Salto.SetActive(true);
             FlechaSalto.SetActive(true);
             FlechitaArrastre.SetActive(true);
             Ltuto.SetActive(true);
             Romper.SetActive(true);
+            Romper2.SetActive(true);
             FlechitaUp.SetActive(true);
             FlechitaTemplo.SetActive(true);
             FlechaActivada = true;
@@ -318,12 +327,16 @@ public class PlayerMovement : MonoBehaviour
 
         if (collision.gameObject.CompareTag("FlechitaSaltoOff"))
         {
-            WASD.SetActive(false);
+            A.SetActive(false);
+            D.SetActive(false);
+            Flecha1.SetActive(false);
+            Flecha2.SetActive(false);
             Salto.SetActive(false);
             FlechaSalto.SetActive(false);
             FlechitaArrastre.SetActive(false);
             Ltuto.SetActive(false);
             Romper.SetActive(false);
+            Romper2.SetActive(false);
             FlechitaUp.SetActive(false);
             FlechitaTemplo.SetActive(false);
             FlechaActivada = false;
