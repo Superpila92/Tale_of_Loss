@@ -21,28 +21,42 @@ public class Megallama : MonoBehaviour
     private ParticleSystem megaFlame;
     public GameObject megaF;
     // Start is called before the first frame update
-    void Start()
+
+    private void Awake()
     {
         megaFlame = gameObject.GetComponent<ParticleSystem>();
         megaFlame.Stop();
+    }
+
+    void Start()
+    {
         megaF.gameObject.GetComponent<Collider2D>().enabled = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(isFollowing)
-        {
-            transform.position = Vector2.Lerp(transform.position, followTarget.position, followSpeed * Time.deltaTime);
-        }
+        Debug.Log($"num 1 {Activada1}, num2 {Activada2}, num3 {Activada3}, num4 {Activada4}");
 
         if ((Activada1 == true) && (Activada2 == true) && (Activada3 == true) && (Activada4 == true))
         {
             megaFlame.Play();
-            megaF.gameObject.GetComponent<Collider2D>().enabled = true;
+            ActivarLlama();
+        }
 
+
+        if (isFollowing)
+        {
+            transform.position = Vector2.Lerp(transform.position, followTarget.position, followSpeed * Time.deltaTime);
         }
     }
+
+    private void ActivarLlama()
+    {
+        megaF.gameObject.GetComponent<Collider2D>().enabled = true;
+    }
+
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.tag == "Player")
@@ -60,5 +74,5 @@ public class Megallama : MonoBehaviour
         }
 
     }
-
+   
 }

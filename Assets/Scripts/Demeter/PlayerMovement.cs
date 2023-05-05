@@ -146,8 +146,6 @@ public class PlayerMovement : MonoBehaviour
         }
 
         Flip();
-        //GodMode();
-        //Normality();
 
         if (Input.GetButtonDown("Jump") && !isJumping)
         {
@@ -160,7 +158,9 @@ public class PlayerMovement : MonoBehaviour
             isJumping = true;
             footsteps.Stopfootsteps();
             snowfootsteps.StopSnowFootsteps();
+            jump.pitch = Random.Range(0.7f, 1f);
             jump.Play();
+            sparkleSound.pitch = Random.Range(0.7f, 1f);
             sparkleSound.Play();
         }
         else

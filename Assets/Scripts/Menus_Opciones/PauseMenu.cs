@@ -27,11 +27,13 @@ public class PauseMenu : MonoBehaviour
             if (GameIsPaused)
             {
                 Resume();
+
             }
             else
             {
                 Pause();
-                
+
+
             }
 
         }
@@ -51,6 +53,8 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 1f;
         GameIsPaused = false;
         plyM.canFlip = true;
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
 
     void Pause()
@@ -60,11 +64,13 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 0f;
         GameIsPaused = true;
         plyM.canFlip = false;
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
 
     public void Menu()
     {
-        Debug.Log("Loading settings...");
+        plyM.canFlip = true;
         //audioSourceClick.Play();
         Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);

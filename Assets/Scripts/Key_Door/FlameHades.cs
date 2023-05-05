@@ -11,6 +11,8 @@ public class FlameHades : MonoBehaviour
     public Transform Target;
 
     public DisapearFloor floor;
+    public DesapareceTodo suelo;
+    public DesapareceTodo1 suelo1;
 
     public AudioSource pickFlame;
 
@@ -44,6 +46,8 @@ public class FlameHades : MonoBehaviour
                 thePlayer.followingFlame = this;
 
                 floor.GetComponentInChildren<Collider2D>().enabled = false;
+                suelo.GetComponentInChildren<Collider2D>().enabled = false;
+                suelo1.GetComponentInChildren<Collider2D>().enabled = false;
 
             }
         }

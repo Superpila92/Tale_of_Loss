@@ -23,6 +23,8 @@ public class Owl_Sound : MonoBehaviour
         if(collision.gameObject.CompareTag("Player"))
         {
             owl.Play();
+
         }
     }
+
 }
