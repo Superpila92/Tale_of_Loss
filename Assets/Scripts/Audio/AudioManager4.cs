@@ -6,7 +6,7 @@ public class AudioManager4 : MonoBehaviour
 {
     public AudioClip mainTrack;
 
-    private AudioSource track01, track02;
+    public AudioSource track01, track02;
     public bool isPlayingTrack01;
 
     public static AudioManager4 instance;
