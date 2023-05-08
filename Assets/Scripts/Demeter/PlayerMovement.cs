@@ -288,11 +288,6 @@ public class PlayerMovement : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        //if (collision.gameObject.CompareTag("Empujable"))
-        //{
-        //    anim.SetTrigger("isDragging");
-        //    anim.SetBool("isDragging_bool", true);
-        //}
 
         if (collision.gameObject.CompareTag("Adelante"))
         {

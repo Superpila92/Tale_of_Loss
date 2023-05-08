@@ -36,6 +36,7 @@ public class CutAttack : MonoBehaviour
                 aura.Play();
                 nextAttackTime = Time.time + 1f / attackRate;
 
+                attackSound.pitch = Random.Range(0.75f, 1f);
                 attackSound.Play();
 
             }

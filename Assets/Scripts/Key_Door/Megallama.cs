@@ -36,7 +36,6 @@ public class Megallama : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log($"num 1 {Activada1}, num2 {Activada2}, num3 {Activada3}, num4 {Activada4}");
 
         if ((Activada1 == true) && (Activada2 == true) && (Activada3 == true) && (Activada4 == true))
         {

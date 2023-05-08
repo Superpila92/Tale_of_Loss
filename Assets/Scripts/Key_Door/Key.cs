@@ -31,6 +31,7 @@ public class Key : MonoBehaviour
     {
         if(collision.tag == "Player")
         {
+            pickKey.pitch = Random.Range(0.7f, 1f);
            pickKey.Play();
             if(!isFollowing)
             {
@@ -44,5 +45,6 @@ public class Key : MonoBehaviour
         }
 
     }
+
 
 }

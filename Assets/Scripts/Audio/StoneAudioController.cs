@@ -6,6 +6,7 @@ using UnityEngine.Audio;
 public class StoneAudioController : MonoBehaviour
 {
     public AudioSource stoneDraggedbyPlayer;
+    public PlayerMovement ply;
 
     // Start is called before the first frame update
     void Start()
@@ -23,6 +24,7 @@ public class StoneAudioController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Empujable"))
         {
+            stoneDraggedbyPlayer.pitch = Random.Range(0.7f, 1f);
             stoneDraggedbyPlayer.Play();
         }
     }
