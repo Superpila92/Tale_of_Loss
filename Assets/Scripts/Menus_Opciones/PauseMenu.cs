@@ -71,6 +71,7 @@ public class PauseMenu : MonoBehaviour
     public void Menu()
     {
         plyM.canFlip = true;
+        GameIsPaused = false;
         //audioSourceClick.Play();
         Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
