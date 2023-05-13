@@ -10,10 +10,18 @@ public class MainMenu : MonoBehaviour
 {
     [SerializeField] AudioSource audioSelection;
     [SerializeField] AudioSource audioClick;
+    
+    [SerializeField] Animator anim;
 
     private void Awake()
     {
         //audioSource = GetComponentInChildren<AudioSource>();
+    }
+
+    private void Start()
+    {
+        anim = GetComponent<Animator>();
+        anim.SetBool("IsLoadingPlay", false);
     }
 
     void Update()
@@ -29,9 +37,9 @@ public class MainMenu : MonoBehaviour
     public void OnPlay()
     {
         audioClick.Play();
-        Debug.Log("Cargamos la siguiente escena");
-        audioClick.Play();
-        SceneManager.LoadScene("SampleScene");
+        Invoke("GameScene", 3f);
+        anim.SetBool("IsLoadingPlay", true);
+        Debug.Log("escenaplay1");
 
     }
 
@@ -52,4 +60,9 @@ public class MainMenu : MonoBehaviour
 #endif
     }
 
+    public void GameScene()
+    {
+        SceneManager.LoadScene("SampleScene");
+        Debug.Log("escenaplay2");
+    }
 }
