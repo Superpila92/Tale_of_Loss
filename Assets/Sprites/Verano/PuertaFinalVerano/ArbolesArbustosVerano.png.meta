@@ -1,0 +1,535 @@
+fileFormatVersion: 2
+guid: 94edb67850addf342976ed393cc0bb78
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ArbolesArbustosVerano_0
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 7357
+        width: 1120
+        height: 856
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d53cd2fe34eb0d84a85cccb88f77ef14
+      internalID: 1778917280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesArbustosVerano_1
+      rect:
+        serializedVersion: 2
+        x: 2216
+        y: 7482
+        width: 615
+        height: 819
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efe2ad7168a9b2a4e8855c52c495d01c
+      internalID: 1011534554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesArbustosVerano_4
+      rect:
+        serializedVersion: 2
+        x: 3250
+        y: 7749
+        width: 729
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24745036b4a5d354ba21169621a17a84
+      internalID: 85046892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesArbustosVerano_5
+      rect:
+        serializedVersion: 2
+        x: 6076
+        y: 8045
+        width: 121
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5699f6f8522b98e4380209014dfc3a09
+      internalID: -1107766369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesArbustosVerano_7
+      rect:
+        serializedVersion: 2
+        x: 5650
+        y: 7891
+        width: 130
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89bf8d8f9a52165498918f30c18e5c10
+      internalID: 2043761880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesArbustosVerano_8
+      rect:
+        serializedVersion: 2
+        x: 5840
+        y: 7825
+        width: 176
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb2a4d3a499e2154e8811972308d8078
+      internalID: 1803972413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesArbustosVerano_11
+      rect:
+        serializedVersion: 2
+        x: 4461
+        y: 7752
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 615517051ba7a9644a03def2f446ecb4
+      internalID: -1764475692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesArbustosVerano_12
+      rect:
+        serializedVersion: 2
+        x: 11487
+        y: 2260
+        width: 3310
+        height: 5507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40c242b4144b3b543bffd491e6cf70f1
+      internalID: -1432718156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesArbustosVerano_13
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 2516
+        width: 3609
+        height: 4511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b0aa0b52d3e6148b5393f65b823dd2
+      internalID: 1824508571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesArbustosVerano_14
+      rect:
+        serializedVersion: 2
+        x: 4120
+        y: 2399
+        width: 2768
+        height: 4804
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f075f91d9f026444f85158c45b6ae76a
+      internalID: -534237716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesArbustosVerano_15
+      rect:
+        serializedVersion: 2
+        x: 7168
+        y: 2584
+        width: 4136
+        height: 4765
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3e36a95746aa3547b4e7dc7a677068f
+      internalID: -1485599880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesArbustosVerano_16
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 443
+        width: 2212
+        height: 1399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8db34ecef05f2a74bb6e04eecd458ab3
+      internalID: -616179412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesArbustosVerano_17
+      rect:
+        serializedVersion: 2
+        x: 2831
+        y: 524
+        width: 1530
+        height: 1223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44031d0241a655845bc90a65dc65cdad
+      internalID: 2009077788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesArbustosVerano_18
+      rect:
+        serializedVersion: 2
+        x: 4632
+        y: 590
+        width: 1904
+        height: 783
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 897e450cd7217384db9da370f91046db
+      internalID: -443942765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesArbustosVerano_19
+      rect:
+        serializedVersion: 2
+        x: 6984
+        y: 582
+        width: 2408
+        height: 1567
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4952d60a5bb8e8946832e000d889b205
+      internalID: 580055346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesArbustosVerano_20
+      rect:
+        serializedVersion: 2
+        x: 10112
+        y: 560
+        width: 2144
+        height: 1531
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9765bf40d675dc04db98a9665694567a
+      internalID: 25002356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesArbustosVerano_21
+      rect:
+        serializedVersion: 2
+        x: 13040
+        y: 1285
+        width: 945
+        height: 560
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04befc245796e2646aaaeab8d5e9597b
+      internalID: -2050574474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesArbustosVerano_22
+      rect:
+        serializedVersion: 2
+        x: 13355
+        y: 194
+        width: 1267
+        height: 769
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7666ff96e71571248a403c78a594d368
+      internalID: 570183119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ArbolesArbustosVerano_10: -377662676
+      ArbolesArbustosVerano_20: 25002356
+      ArbolesArbustosVerano_6: -1593775310
+      ArbolesArbustosVerano_3: 1276935239
+      ArbolesArbustosVerano_14: -534237716
+      ArbolesArbustosVerano_9: 957085844
+      ArbolesArbustosVerano_13: 1824508571
+      ArbolesArbustosVerano_1: 1011534554
+      ArbolesArbustosVerano_0: 1778917280
+      ArbolesArbustosVerano_21: -2050574474
+      ArbolesArbustosVerano_5: -1107766369
+      ArbolesArbustosVerano_11: -1764475692
+      ArbolesArbustosVerano_15: -1485599880
+      ArbolesArbustosVerano_17: 2009077788
+      ArbolesArbustosVerano_2: 1067118584
+      ArbolesArbustosVerano_4: 85046892
+      ArbolesArbustosVerano_12: -1432718156
+      ArbolesArbustosVerano_22: 570183119
+      ArbolesArbustosVerano_8: 1803972413
+      ArbolesArbustosVerano_16: -616179412
+      ArbolesArbustosVerano_18: -443942765
+      ArbolesArbustosVerano_19: 580055346
+      ArbolesArbustosVerano_7: 2043761880
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
