@@ -407,10 +407,14 @@ public class PlayerMovement : MonoBehaviour
             snowfootsteps.StopSnowFootsteps();
             Debug.Log("notsnow");
         }
-        
+
         if (collision.gameObject.CompareTag("grass"))
         {
             tocandoCesped = true;
+        }
+        else
+        {
+            tocandoCesped = false;
         }
         
     }
