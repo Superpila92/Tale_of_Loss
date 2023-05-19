@@ -16,6 +16,8 @@ public class FlameHades : MonoBehaviour
 
     public AudioSource pickFlame;
 
+    public Flame2GoHere flame;
+
 
     // Start is called before the first frame update
     void Start()
@@ -36,6 +38,7 @@ public class FlameHades : MonoBehaviour
         if (collision.tag == "Player")
         {
             pickFlame.Play();
+            flame.llamaColocada = true;
             if (!isFollowingFlame)
             {
                 PlayerMovement thePlayer = FindObjectOfType<PlayerMovement>();
