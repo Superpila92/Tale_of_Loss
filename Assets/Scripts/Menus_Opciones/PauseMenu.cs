@@ -18,6 +18,8 @@ public class PauseMenu : MonoBehaviour
     //[SerializeField] AudioSource audioSourceClick;
 
     public PlayerMovement plyM;
+    public AudioSource clickGlitter;
+    public AudioSource clickBack;
 
     // Update is called once per frame
     void Update()
@@ -27,12 +29,14 @@ public class PauseMenu : MonoBehaviour
             if (GameIsPaused)
             {
                 Resume();
-
+                clickBack.pitch = Random.Range(0.9f, 1f);
+                clickBack.Play();
             }
             else
             {
                 Pause();
-
+                clickGlitter.pitch = Random.Range(0.9f, 1f);
+                clickGlitter.Play();
 
             }
 
