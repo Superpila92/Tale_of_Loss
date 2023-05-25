@@ -86,9 +86,8 @@ public class PlayerMovement : MonoBehaviour
     public ParticleSystem FlipDust2;
     public ParticleSystem FlipStar;
     public ParticleSystem MagicDem;
-    public ParticleSystem PCesped;
-
-    public bool tocandoCesped;
+    public ParticleSystem Cesped;
+    public bool tocandoCesped = false;
 
     [Header("Tutorial")]
     public GameObject A;
@@ -382,13 +381,12 @@ public class PlayerMovement : MonoBehaviour
     {
         if (tocandoCesped == true)
         {
-            PCesped.Play();
+            Cesped.Play();
         }
         else
         {
             FlipDust.Play();
         }
-
     }
 
     void CreateStar()
@@ -397,25 +395,25 @@ public class PlayerMovement : MonoBehaviour
     void CreateMagic()
     {   MagicDem.Play();    }
 
-
+    void CreateCesped()
+    {  }
 
     private void OnTriggerStay2D(Collider2D collision)
     {
+        if (collision.gameObject.CompareTag("grass"))
+        {
+            tocandoCesped = true;
+        }
+        else if (collision.gameObject.CompareTag("nograss"))
+        {
+            tocandoCesped = false;
+        }
+
         if (collision.gameObject.CompareTag("Weapon"))
         {
             inSnow = false;
             snowfootsteps.StopSnowFootsteps();
             Debug.Log("notsnow");
         }
-
-        if (collision.gameObject.CompareTag("grass"))
-        {
-            tocandoCesped = true;
-        }
-        else
-        {
-            tocandoCesped = false;
-        }
-        
     }
 }

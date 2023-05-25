@@ -20,6 +20,8 @@ TagManager:
   - FlechitaSaltoOff
   - Llamita3_01
   - grass
+  - llave
+  - nograss
   layers:
   - Default
   - TransparentFX

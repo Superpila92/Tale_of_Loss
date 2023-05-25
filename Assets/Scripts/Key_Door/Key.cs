@@ -13,6 +13,8 @@ public class Key : MonoBehaviour
 
     public AudioSource pickKey;
 
+    public ParticleSystem Destello;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +27,7 @@ public class Key : MonoBehaviour
         if(isFollowing)
         {
             transform.position = Vector2.Lerp(transform.position, followTarget.position, followSpeed * Time.deltaTime);
+            
         }
     }
     private void OnTriggerEnter2D(Collider2D collision)
@@ -35,16 +38,26 @@ public class Key : MonoBehaviour
            pickKey.Play();
             if(!isFollowing)
             {
+                
                 PlayerMovement thePlayer = FindObjectOfType<PlayerMovement>();
 
                 followTarget = thePlayer.keyFollowPoint;
+                
 
                 isFollowing = true;
                 thePlayer.followingKey = this;
+                
             }
         }
 
+        if (collision.tag == "llave")
+        {
+            Destello.Play();
+        }
+
     }
+
+
 
 
 }

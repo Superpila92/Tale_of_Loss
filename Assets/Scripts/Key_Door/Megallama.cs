@@ -20,7 +20,6 @@ public class Megallama : MonoBehaviour
 
     private ParticleSystem megaFlame;
     public GameObject megaF;
-    public TriggerFlash tFlash;
     // Start is called before the first frame update
 
     private void Awake()
@@ -62,7 +61,6 @@ public class Megallama : MonoBehaviour
         if(collision.tag == "Player")
         {
            pickKey.Play();
-            tFlash.megallamaCogida = true;
             if(!isFollowing)
             {
                 PlayerMovement thePlayer = FindObjectOfType<PlayerMovement>();

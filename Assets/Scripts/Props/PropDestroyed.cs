@@ -7,6 +7,7 @@ public class PropDestroyed : MonoBehaviour
 {
     public int maxHealth = 1;
     int currentHealth;
+    public ParticleSystem Particless;
 
     [SerializeField]
     UnityEngine.Object destructableRef;
@@ -31,6 +32,7 @@ public class PropDestroyed : MonoBehaviour
 
         if(currentHealth <= 0)
         {
+            CreateParticles();
             ExplodeThisGameObject();
         }
     }
@@ -43,5 +45,8 @@ public class PropDestroyed : MonoBehaviour
 
         Destroy(gameObject);
     }
+
+    void CreateParticles()
+    { Particless.Play(); }
 
 }
