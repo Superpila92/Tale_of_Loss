@@ -31,7 +31,13 @@ public class AudioSwap4 : MonoBehaviour
             am3.track01.Stop();
             am3.track02.Stop();
             AudioManager4.instance.SwapTrack(newTrack);
+            Invoke("DesapareceCollider", 2f);
         }
+    }
+
+    public void DesapareceCollider()
+    {
+        this.gameObject.SetActive(false);
     }
 
 }

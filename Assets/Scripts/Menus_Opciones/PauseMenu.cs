@@ -19,6 +19,8 @@ public class PauseMenu : MonoBehaviour
 
     public PlayerMovement plyM;
 
+    public LowPass LPfilter;
+
     // Update is called once per frame
     void Update()
     {
@@ -55,6 +57,7 @@ public class PauseMenu : MonoBehaviour
         plyM.canFlip = true;
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+        LPfilter.gameObject.SetActive(false);
     }
 
     void Pause()
@@ -66,6 +69,7 @@ public class PauseMenu : MonoBehaviour
         plyM.canFlip = false;
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
+        LPfilter.gameObject.SetActive(true);
     }
 
     public void Menu()

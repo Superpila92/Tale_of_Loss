@@ -20,6 +20,8 @@ public class Megallama : MonoBehaviour
 
     private ParticleSystem megaFlame;
     public GameObject megaF;
+
+    public TriggerFlash TF;
     // Start is called before the first frame update
 
     private void Awake()
@@ -41,6 +43,7 @@ public class Megallama : MonoBehaviour
         {
             megaFlame.Play();
             ActivarLlama();
+            TF.megallamaCogida = true;
         }
 
 
