@@ -10,10 +10,12 @@ public class TriggerFlash : MonoBehaviour
     public FlashStars fStars;
 
     public ParedesInvisHades walls;
+
+    public AudioSource DestelloAudio;
     // Start is called before the first frame update
     void Start()
     {
-
+        AudioSource audio = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -28,6 +30,7 @@ public class TriggerFlash : MonoBehaviour
             Invoke("ActivarAnim", 2f);
             Invoke("ActivarAnim2", 2f);
             Invoke("NosFuimo", 5f);
+            Invoke("ShootAudio", 0.01f);
 
             walls.hadesWalls.gameObject.SetActive(true);
         }
@@ -50,6 +53,10 @@ public class TriggerFlash : MonoBehaviour
             fStars.flashStars.Play("FlashStars");
         }
 
+    }
+    public void ShootAudio()
+    {
+        DestelloAudio.Play();
     }
     public void NosFuimo()
     {

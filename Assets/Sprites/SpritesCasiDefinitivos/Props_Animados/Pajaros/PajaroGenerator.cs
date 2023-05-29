@@ -40,7 +40,7 @@ public class PajaroGenerator : MonoBehaviour
         startPos.y = UnityEngine.Random.Range(distance_01, distance_02);
         cloud.transform.position = startPos;
 
-        float scale = UnityEngine.Random.Range(0.5f, 4f);
+        float scale = UnityEngine.Random.Range(0.5f, 3f);
         cloud.transform.localScale = new Vector2(scale, scale);
 
 

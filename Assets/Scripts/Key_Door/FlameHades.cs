@@ -18,6 +18,8 @@ public class FlameHades : MonoBehaviour
 
     public ParedesInvis walls;
 
+    public float numMagico = 1f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -37,6 +39,7 @@ public class FlameHades : MonoBehaviour
         if (collision.tag == "Player")
         {
             pickFlame.Play();
+            numMagico++;
             walls.walls.gameObject.SetActive(true);
             if (!isFollowingFlame)
             {
