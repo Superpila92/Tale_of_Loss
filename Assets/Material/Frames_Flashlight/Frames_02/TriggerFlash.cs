@@ -33,6 +33,7 @@ public class TriggerFlash : MonoBehaviour
             Invoke("ShootAudio", 0.01f);
 
             walls.hadesWalls.gameObject.SetActive(true);
+            this.GetComponent<Collider2D>().enabled = false;
         }
 
     }
