@@ -15,10 +15,10 @@ public class AudioSwap3 : MonoBehaviour
             am2.track02.Stop();
             AudioManager3.instance.SwapTrack(newTrack);
         }
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            AudioManager3.instance.ReturnToTrack1();
-        }
+        //if (collision.gameObject.CompareTag("Player"))
+        //{
+        //    AudioManager3.instance.ReturnToTrack1();
+        //}
     }
 
 }

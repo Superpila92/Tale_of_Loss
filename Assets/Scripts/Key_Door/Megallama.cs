@@ -41,8 +41,7 @@ public class Megallama : MonoBehaviour
 
         if ((Activada1 == true) && (Activada2 == true) && (Activada3 == true) && (Activada4 == true))
         {
-            megaFlame.Play();
-            ActivarLlama();
+            Invoke("ActivarLlama", 2f);
             TF.megallamaCogida = true;
         }
 
@@ -55,6 +54,7 @@ public class Megallama : MonoBehaviour
 
     private void ActivarLlama()
     {
+        megaFlame.Play();
         megaF.gameObject.GetComponent<Collider2D>().enabled = true;
     }
 

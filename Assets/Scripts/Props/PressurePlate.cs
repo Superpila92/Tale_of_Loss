@@ -14,14 +14,14 @@ public class PressurePlate : MonoBehaviour
 
     private void OnCollisionStay2D(Collision2D collision)
     {
-        if(collision.transform.name == "Player" || collision.gameObject.tag == "Rock")
+        if(collision.gameObject.tag == "Rock")
         {
             transform.Translate(0, -0.05f, 0);
         }
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.transform.name == "Player" || collision.gameObject.tag == "Rock")
+        if(collision.gameObject.tag == "Rock")
         {
             collision.transform.parent = transform;
             
@@ -29,7 +29,7 @@ public class PressurePlate : MonoBehaviour
     }
     private void OnCollisionExit2D(Collision2D collision)
     {
-        if (collision.transform.name == "Player" || collision.gameObject.tag == "Rock")
+        if (collision.gameObject.tag == "Rock")
         {
             collision.transform.parent = null;
         }
