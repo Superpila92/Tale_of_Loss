@@ -1,6 +1,8 @@
 
 <h1 align='center'><i>GAME DESIGN DOCUMENT</i></h1>
 
+![](https://github.com/Superpila92/Tale_of_Loss/blob/main/ImagesReadMe/Titulo.png)
+
 ## FICHA DEL JUEGO  
 - **Nombre del proyecto** - TALE OF LOSS
 
@@ -63,9 +65,6 @@ Estos escenarios nevados presentarán una pequeña evolución a medida que avanc
 **REGLAS CONSTITUTIVAS**: No hay opción a muerte.
 
 **REGLAS IMPLICATIVAS**: la única forma de obtener la victoria es finalizando el templo de Hades. No hay condición de derrota.
-
-
-## FLOWCHART
 
 
 ## TIPOS DE DIVERSIÓN
