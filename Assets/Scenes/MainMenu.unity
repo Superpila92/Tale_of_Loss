@@ -5069,8 +5069,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pausedMenuUI: {fileID: 471740186}
   plyM: {fileID: 0}
-  clickGlitter: {fileID: 0}
-  clickBack: {fileID: 0}
+  LPfilter: {fileID: 0}
 --- !u!1 &758321060
 GameObject:
   m_ObjectHideFlags: 0
@@ -9146,7 +9145,7 @@ MonoBehaviour:
   m_FillRect: {fileID: 570417280}
   m_HandleRect: {fileID: 351057135}
   m_Direction: 0
-  m_MinValue: -50
+  m_MinValue: -40
   m_MaxValue: 20
   m_WholeNumbers: 0
   m_Value: 20
