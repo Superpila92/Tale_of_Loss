@@ -9,6 +9,10 @@ public class Bosque_03 : MonoBehaviour
 
     public Megallama mega;
 
+    public AudioSource soundSymbol;
+
+    private float num = 1f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -29,7 +33,18 @@ public class Bosque_03 : MonoBehaviour
             {
                 thePlayer.followingLlama03.followTarget = flameHere03.transform;
                 mega.Activada3 = true;
+
+                if (num == 1)
+                {
+                    Invoke("PlaySound", 1f);
+                    num++;
+                }
             }
         }
+    }
+    private void PlaySound()
+    {
+        soundSymbol.pitch = Random.Range(0.9f, 1f);
+        soundSymbol.Play();
     }
 }

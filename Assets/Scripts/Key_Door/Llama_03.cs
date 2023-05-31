@@ -11,12 +11,14 @@ public class Llama_03 : MonoBehaviour
 
     public Transform followTarget;
 
-    //public AudioSource pickKey;
+    public AudioSource pickKey;
+
+    private float num = 1f;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        AudioSource audio = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -31,7 +33,6 @@ public class Llama_03 : MonoBehaviour
     {
         if(collision.tag == "Player")
         {
-           //pickKey.Play();
             if(!isFollowing)
             {
                 PlayerMovement thePlayer = FindObjectOfType<PlayerMovement>();
@@ -42,7 +43,17 @@ public class Llama_03 : MonoBehaviour
                 thePlayer.followingLlama03 = this;
             }
         }
+        if (num == 1)
+        {
+            SoundPick();
+            num++;
+        }
 
+    }
+    public void SoundPick()
+    {
+        pickKey.pitch = Random.Range(0.8f, 1f);
+        pickKey.Play();
     }
 
 }
