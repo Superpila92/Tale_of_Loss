@@ -622,8 +622,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 017e07b95a7e24f48a2cdd99f5e89419, type: 2}
-  m_sharedMaterial: {fileID: 2544159493146055484, guid: 017e07b95a7e24f48a2cdd99f5e89419, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b807677d67ba77d48bb754fa17c526a3, type: 2}
+  m_sharedMaterial: {fileID: 8271154574058425353, guid: b807677d67ba77d48bb754fa17c526a3, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1043,8 +1043,8 @@ MonoBehaviour:
 
     Silvia Vaccher'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 017e07b95a7e24f48a2cdd99f5e89419, type: 2}
-  m_sharedMaterial: {fileID: 2544159493146055484, guid: 017e07b95a7e24f48a2cdd99f5e89419, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b807677d67ba77d48bb754fa17c526a3, type: 2}
+  m_sharedMaterial: {fileID: 8271154574058425353, guid: b807677d67ba77d48bb754fa17c526a3, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1179,8 +1179,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: MUSIC
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 017e07b95a7e24f48a2cdd99f5e89419, type: 2}
-  m_sharedMaterial: {fileID: 2544159493146055484, guid: 017e07b95a7e24f48a2cdd99f5e89419, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b807677d67ba77d48bb754fa17c526a3, type: 2}
+  m_sharedMaterial: {fileID: 8271154574058425353, guid: b807677d67ba77d48bb754fa17c526a3, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1210,7 +1210,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -1728,8 +1728,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: ANIMATOR
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 017e07b95a7e24f48a2cdd99f5e89419, type: 2}
-  m_sharedMaterial: {fileID: 2544159493146055484, guid: 017e07b95a7e24f48a2cdd99f5e89419, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b807677d67ba77d48bb754fa17c526a3, type: 2}
+  m_sharedMaterial: {fileID: 8271154574058425353, guid: b807677d67ba77d48bb754fa17c526a3, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1759,7 +1759,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -1865,8 +1865,8 @@ MonoBehaviour:
 
     Josefina Monistrol'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 017e07b95a7e24f48a2cdd99f5e89419, type: 2}
-  m_sharedMaterial: {fileID: 2544159493146055484, guid: 017e07b95a7e24f48a2cdd99f5e89419, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b807677d67ba77d48bb754fa17c526a3, type: 2}
+  m_sharedMaterial: {fileID: 8271154574058425353, guid: b807677d67ba77d48bb754fa17c526a3, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2004,8 +2004,8 @@ MonoBehaviour:
 
     Silvia Vaccher'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 017e07b95a7e24f48a2cdd99f5e89419, type: 2}
-  m_sharedMaterial: {fileID: 2544159493146055484, guid: 017e07b95a7e24f48a2cdd99f5e89419, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b807677d67ba77d48bb754fa17c526a3, type: 2}
+  m_sharedMaterial: {fileID: 8271154574058425353, guid: b807677d67ba77d48bb754fa17c526a3, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2225,8 +2225,8 @@ MonoBehaviour:
 
     Alberto Judez'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 017e07b95a7e24f48a2cdd99f5e89419, type: 2}
-  m_sharedMaterial: {fileID: 2544159493146055484, guid: 017e07b95a7e24f48a2cdd99f5e89419, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b807677d67ba77d48bb754fa17c526a3, type: 2}
+  m_sharedMaterial: {fileID: 8271154574058425353, guid: b807677d67ba77d48bb754fa17c526a3, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -7806,8 +7806,8 @@ MonoBehaviour:
 
     Josefina Monistrol'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 017e07b95a7e24f48a2cdd99f5e89419, type: 2}
-  m_sharedMaterial: {fileID: 2544159493146055484, guid: 017e07b95a7e24f48a2cdd99f5e89419, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b807677d67ba77d48bb754fa17c526a3, type: 2}
+  m_sharedMaterial: {fileID: 8271154574058425353, guid: b807677d67ba77d48bb754fa17c526a3, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -8221,8 +8221,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: PROGRAMMER
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 017e07b95a7e24f48a2cdd99f5e89419, type: 2}
-  m_sharedMaterial: {fileID: 2544159493146055484, guid: 017e07b95a7e24f48a2cdd99f5e89419, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b807677d67ba77d48bb754fa17c526a3, type: 2}
+  m_sharedMaterial: {fileID: 8271154574058425353, guid: b807677d67ba77d48bb754fa17c526a3, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -8252,7 +8252,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -8592,8 +8592,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: SLEEPING AT LAST
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 017e07b95a7e24f48a2cdd99f5e89419, type: 2}
-  m_sharedMaterial: {fileID: 2544159493146055484, guid: 017e07b95a7e24f48a2cdd99f5e89419, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b807677d67ba77d48bb754fa17c526a3, type: 2}
+  m_sharedMaterial: {fileID: 8271154574058425353, guid: b807677d67ba77d48bb754fa17c526a3, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -13749,8 +13749,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: PRODUCER
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 017e07b95a7e24f48a2cdd99f5e89419, type: 2}
-  m_sharedMaterial: {fileID: 2544159493146055484, guid: 017e07b95a7e24f48a2cdd99f5e89419, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b807677d67ba77d48bb754fa17c526a3, type: 2}
+  m_sharedMaterial: {fileID: 8271154574058425353, guid: b807677d67ba77d48bb754fa17c526a3, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -13780,7 +13780,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -14298,8 +14298,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: VFX
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 017e07b95a7e24f48a2cdd99f5e89419, type: 2}
-  m_sharedMaterial: {fileID: 2544159493146055484, guid: 017e07b95a7e24f48a2cdd99f5e89419, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b807677d67ba77d48bb754fa17c526a3, type: 2}
+  m_sharedMaterial: {fileID: 8271154574058425353, guid: b807677d67ba77d48bb754fa17c526a3, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -14329,7 +14329,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -24255,7 +24255,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -953}
+  m_AnchoredPosition: {x: 0, y: -529.8}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1737524047
@@ -24513,8 +24513,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: GAME DESIGN
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 017e07b95a7e24f48a2cdd99f5e89419, type: 2}
-  m_sharedMaterial: {fileID: 2544159493146055484, guid: 017e07b95a7e24f48a2cdd99f5e89419, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b807677d67ba77d48bb754fa17c526a3, type: 2}
+  m_sharedMaterial: {fileID: 8271154574058425353, guid: b807677d67ba77d48bb754fa17c526a3, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -24544,7 +24544,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -25132,8 +25132,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 2D ARTIST
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 017e07b95a7e24f48a2cdd99f5e89419, type: 2}
-  m_sharedMaterial: {fileID: 2544159493146055484, guid: 017e07b95a7e24f48a2cdd99f5e89419, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b807677d67ba77d48bb754fa17c526a3, type: 2}
+  m_sharedMaterial: {fileID: 8271154574058425353, guid: b807677d67ba77d48bb754fa17c526a3, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -25163,7 +25163,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -25793,8 +25793,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: '- A GAME BY IVY STUDIOS -'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 017e07b95a7e24f48a2cdd99f5e89419, type: 2}
-  m_sharedMaterial: {fileID: 2544159493146055484, guid: 017e07b95a7e24f48a2cdd99f5e89419, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b807677d67ba77d48bb754fa17c526a3, type: 2}
+  m_sharedMaterial: {fileID: 8271154574058425353, guid: b807677d67ba77d48bb754fa17c526a3, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -25824,7 +25824,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -26013,8 +26013,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: CONCEPT ARTIST
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 017e07b95a7e24f48a2cdd99f5e89419, type: 2}
-  m_sharedMaterial: {fileID: 2544159493146055484, guid: 017e07b95a7e24f48a2cdd99f5e89419, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b807677d67ba77d48bb754fa17c526a3, type: 2}
+  m_sharedMaterial: {fileID: 8271154574058425353, guid: b807677d67ba77d48bb754fa17c526a3, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -26044,7 +26044,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -26257,8 +26257,8 @@ MonoBehaviour:
 
     Silvia Vaccher'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 017e07b95a7e24f48a2cdd99f5e89419, type: 2}
-  m_sharedMaterial: {fileID: 2544159493146055484, guid: 017e07b95a7e24f48a2cdd99f5e89419, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b807677d67ba77d48bb754fa17c526a3, type: 2}
+  m_sharedMaterial: {fileID: 8271154574058425353, guid: b807677d67ba77d48bb754fa17c526a3, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
