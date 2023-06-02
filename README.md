@@ -30,9 +30,9 @@
 ## RESUMEN GENERAL DE LA HISTORIA 
 Nuestra historia se inspira en el mito del “el rapto de Perséfone” que los griegos usaban para explicar el cambio de estaciones. 
 
-*“ Antiguamente en el mundo siempre era primavera hasta que… Perséfone, hija de Deméter es raptada por el dios del inframundo Hades. Deméter cayó en una profunda depresión y dejó de cumplir con sus obligaciones como diosa de la naturaleza haciendo que el mundo se sumiera en un invierno helado. Deméter no dejó de buscar a su hija. No fue hasta que recupero a persefone que la primavera volvio a llenar el mundo de color y alegria. “*
+*“ “Antiguamente en el mundo siempre era primavera hasta que… Perséfone, hija de Deméter, es raptada por el dios del inframundo Hades. Deméter cayó en una profunda depresión y dejó de cumplir con sus obligaciones como diosa de la naturaleza, haciendo que el mundo se sumiera en un invierno helado. Deméter no dejó de buscar a su hija. No fue hasta que recupero a Perséfone que la primavera volvió a llenar el mundo de color y alegría. “*
 
-Hemos adaptado esta historia tomando a Deméter, diosa de la Naturaleza como protagonista. La historia empezará con la tristeza de Demeter, que provocará la rápida llegada del invierno. Todo el juego se desarrolla en un paisaje nevado. El escenario contará con varios elementos donde se hará referencia al mito real. El jugador deberá conseguir superar todos los puzzles para lograr desbloquear el “Templo de Hades” y recuperar la primavera.
+Hemos adaptado esta historia tomando a Deméter, diosa de la Naturaleza, como protagonista. La historia empezará con la tristeza de Deméter, que provocará la rápida llegada del invierno. Todo el juego se desarrolla en un paisaje nevado. El escenario contará con varios elementos donde se hará referencia al mito real. El jugador deberá conseguir superar todos los puzzles para lograr desbloquear el “Templo de Hades” y recuperar la primavera.
 
 
 ## CARACTERÍSTICAS GENERALES
@@ -56,22 +56,23 @@ Estos escenarios nevados presentarán una pequeña evolución a medida que avanc
 
 
 ## REGLAS FUNDACIONALES
-**REGLAS DE INICIO**: El juego empezará con el personaje principal cayendo a una superficie del mapa. Verá un trozo pequeño del mapa, en primavera. Una vez toques el suelo, el usuario tomará el control.
+**REGLAS DE INICIO**: el juego empezará con el personaje principal cayendo a una superficie del mapa. Verá un trozo pequeño del mapa, en primavera. Una vez toques el suelo, el usuario tomará el control.
 
-**REGLAS PROGRESIÓN**: Podrá moverse en todas direcciones (2D) y saltar. Podrás interactuar con elementos que se desplazan o rompen. Podrás empujar elementos. Podrás recolectar llaves. Cada vez que obtenga una llave y la lleve a su correspondiente sitio se verá una pequeña cinemática de aquello que desbloquea la llave. Eso te permitirá acceder a nuevas zonas. Hay zonas con subidas de aire.
+**REGLAS PROGRESIÓN**: podrá moverse en todas direcciones (2D) y saltar. Podrás interactuar con elementos que se desplazan o rompen. Podrás empujar elementos. Podrás recolectar llaves. Cada vez que obtenga una llave y la lleve a su correspondiente sitio, se verá una pequeña cinemática de aquello que desbloquea la llave. Eso te permitirá acceder a nuevas zonas. Hay zonas con subidas de aire.
 
 **REGLAS FINALIZACIÓN**: la partida termina cuando el jugador logra completar todos los puzzles y llevar las tres llaves al “templo de Hades”. Saldrá la cinemática final.
 
-**REGLAS CONSTITUTIVAS**: No hay opción a muerte.
+**REGLAS CONSTITUTIVAS**: no hay opción a muerte.
 
 **REGLAS IMPLICATIVAS**: la única forma de obtener la victoria es finalizando el templo de Hades. No hay condición de derrota.
+
 
 
 ## TIPOS DE DIVERSIÓN
 Palabras clave: Descubrimiento, narrativa, fantasía, reto, autoexpresión, avance.
 
 **SENSACIONES Y FLUIDEZ**
-En cuánto a sensaciones derivadas de los sentidos podemos decir que el jugador podrá experimentar una estimulación sensorial a través de la vista, con la correspondiente narrativa visual que acompañará al juego a partir del arte. Por otro lado, habrá una estimulación auditiva que ayudará a complementar el resto de sensaciones que percibirá el jugador. La finalidad es que el juego sea dotado de todas estas características para que sobre todo, la experiencia de juego sea fluida y satisfactoria.
+En cuánto a sensaciones derivadas de los sentidos podemos decir que el jugador podrá experimentar una estimulación sensorial a través de la vista, con la correspondiente narrativa visual que acompañará al juego a partir del arte. Por otro lado, habrá una estimulación auditiva que ayudará a complementar el resto de sensaciones que percibirá el jugador. La finalidad es que el juego sea dotado de todas estas características para que, sobre todo, la experiencia de juego sea fluida y satisfactoria.
 
 **NARRATIVA**
 La inmersión del jugador es total, ya que Tale of Loss no cuenta con diálogos. Todos los elementos, escenarios, música y puzles van a guiar al jugador. Es una historia que abarca mucho más de lo que nosotros contamos, con referencias a la cultura y mitos de la antigua Grecia.
@@ -97,20 +98,22 @@ Rasgos atractivos de nuestro juego para estos tipos de jugadores:
 
 
 ## INFORMACIÓN
-El juego empieza en un escandio verde. a los pocos pasos todo el entorno se vuelve nevado. Esta es toda la información con la que parte nuestro jugador. A medida que avanza el juego el jugador podrá ver distintas estatuas y escenarios que le harán referencia a sucesos de la historia, poniendo como “enemigo” a Hades. Su objetivo principal será recuperar la primavera.
+El juego empieza en un escandio verde. A los pocos pasos todo el entorno se vuelve nevado. Esta es toda la información con la que parte nuestro jugador. A medida que avanza el juego, el jugador podrá ver distintas estatuas y escenarios que le harán referencia a sucesos de la historia, poniendo como “enemigo” a Hades. Su objetivo principal será recuperar la primavera.
+
 
 ## ENEMIGOS
 El enemigo de nuestro juego es más bien algo simbólico, no será ningún boss o enemigo al que destruir para seguir nuestra aventura, sino que por el mapa daremos pistas mediante arquitectura griega sobre la narrativa de la historia y dándole a entender al jugador que el culpable de la rápida llegada del invierno es el dios del inframundo, Hades.
 
 
 ## EVOLUCIÓN DE LA HISTÓRIA
-El escenario pasa de la primavera al invierno. Enlazando con la animación de “play” del menú principal, aparece Demeter cayendo a un escenario primaveral. Solo puedes avanzar en una dirección y a cada paso el escenario se va sumergiendo en el invierno.
+Enlazando con la animación de “play” del menú principal, aparece Deméter cayendo a un escenario primaveral. Solo puedes avanzar en una dirección y a cada paso el escenario se va sumergiendo en el invierno.
 
-A medida que avanza el juego, irá encontrando estatuas y referencias a Hades, el culpable de la llegada del invierno. También harán referencia a la tristeza y soledad de Demeter. Hades será presentado como barrera, que mediante puzzles podrás ir superando. En un punto del escenario aparece un edificio con distintas estatuas que narran brevemente el mito “el rapto de Perséfone”. Nuestro punto principal que hará de “nexo” entre puzles será el templo de Hades que conecta el mundo mortal con el Hades. Dando a entender que el objetivo es conseguir todas las llaves para derrotar finalmente a Hades.
+A medida que avanza el juego, irá encontrando estatuas y referencias a Hades, el culpable de la llegada del invierno. También harán referencia a la tristeza y soledad de Deméter. Hades será presentado como barrera, que mediante puzzles podrás ir superando. En un punto del escenario aparece un edificio con distintas estatuas que narran brevemente el mito “el rapto de Perséfone”. Nuestro punto principal que hará de “nexo” entre puzles será el templo de Hades que conecta el mundo mortal con el Hades. Dando a entender que el objetivo es conseguir todas las llaves para derrotar finalmente a Hades.
 
-Al final del juego, cuando se desbloquea la puerta sale una cinemática final donde el mundo recupera la primavera. 
+Al final del juego, cuando se completa el templo de Hades sale una cinemática final donde el mundo recupera la primavera. 
 
 El juego no cuenta con diálogos para apoyar la sensación de fluidez e inmersión en el escenario. La narrativa es expresada a partir del entorno, la fluidez y las sensaciones que se transmiten al jugador.
+
 
 ## CHARACTER
 Mecánicas definidas: moverse (derecha/izquierda), salto, romper, empujar, deslizarse, físicas de gravedad sobre objetos.
@@ -149,7 +152,7 @@ La música, la estética y la fluidez del juego serán los encargados de persuad
 **RETROALIMENTACIÓN**
 
 Nos encontramos con un juego que se puede definir como una experiencia visual. Es por ese motivo que las mecánicas y la jugabilidad serán muy dinámicas. No requerirá retroalimentación. Serán puzzles accesibles a todo tipo de público.
-En cuanto al balanceo no es algo relevante en nuestro proyecto al no haber enemigos, lo más parecido a balancear algún aspecto de nuestro juego sería la creación de puzzles y jugar con ello para no pecar de facilidad o por el contrario de dificultad en el Level Design.
+En cuanto al balanceo no es algo relevante en nuestro proyecto al no haber enemigos, lo más parecido a balancear algún aspecto de nuestro juego sería la creación de puzzles y jugar con ello para no pecar de facilidad o, por el contrario, de dificultad en el Level Design.
 
 **TOMA DE DECISIONES**
 
@@ -224,9 +227,9 @@ __PROTAGONISTA - DEMÉTER__
 - ¿Cómo es su manera de caminar? ágil, decidida
 
 **BACKGROUND Y ECOSISTEMA**
-Infancia y adolescencia del personaje: La cultura popular griega cuenta como Demeter y cuatro de sus hermanos fueron devorados por su padre, Cronos. El único que logró salvarse fue Zeus, quien entrenó durante años para derrotarlo y salvar a sus hermanos. Juntos derrotan a los titanes y se apoderan del mundo. Ella se queda con el papel de Diosa de la agricultura y la tierra. 
+Infancia y adolescencia del personaje: La cultura popular griega cuenta como Deméter y cuatro de sus hermanos fueron devorados por su padre, Cronos. El único que logró salvarse fue Zeus, quien entrenó durante años para derrotarlo y salvar a sus hermanos. Juntos derrotan a los titanes y se apoderan del mundo. Ella se queda con el papel de Diosa de la agricultura y la tierra. 
 
-Madurez del personaje: Es una de las Diosas más misteriosas que existen. Con una enorme cantidad de secretos que la preceden. Fue acosada por dos de sus hermanos que terminaron violandola. Tiene tres hijos aunque la única que recibe protagonismo es Persefone, que tiene como padre Zeus. Cuentan una versión idealizada de la relación entre Demeter y Persefone. 
+Es una de las Diosas más misteriosas que existen. Con una enorme cantidad de secretos que la preceden. Fue acosada por dos de sus hermanos que terminaron violándola. Tiene tres hijos, aunque la única que recibe protagonismo es Perséfone, que tiene como padre Zeus. Cuentan una versión idealizada de la relación entre Deméter y Perséfone. 
 
 __ANTAGONISTA SIMBÓLICO - HADES__
 **INFORMACIÓN GENERAL**
@@ -240,15 +243,15 @@ __ANTAGONISTA SIMBÓLICO - HADES__
 - Dónde vive:  Hades (infierno)
 
 **PSICOLOGÍA**
-Aunque siempre se dice que es un villano, se aleja mucho de esa idea. En comparación con sus hermanos (Zeus y Poseidon) era el más razonable. Vive tranquilo en su mundo, el Hades. Es independiente, invisible, en muchas ocasiones neutral y muy poderoso. Juega sucio como mecanismo de supervivencia.
+Aunque siempre se dice que es un villano, se aleja mucho de esa idea. En comparación con sus hermanos (Zeus y Poseidón) era el más razonable. Vive tranquilo en su mundo, el Hades. Es independiente, invisible, en muchas ocasiones neutral y muy poderoso. Juega sucio como mecanismo de supervivencia.
 
 **APARIENCIA FÍSICA**
 Hombre de edad mediana, musculoso, apariencia impotente. Suele ser representado con calaveras, huesos, ciprés, cuernos. Posturas imponentes y poderosas. Representado a partir de enormes esculturas de piedra y mármol.
 
 **BACKGROUND Y ECOSISTEMA**
-Comparte infancia con Demeter. Fue devorado por su padre y liberado por Zeus. Junto a sus hermanos se repartió el mundo, él se quedó con el inframundo. Vivía una vida alejada y solitaria hasta que un día ve a Persefone, la hija de Demeter y se enamora de ella. Se lo dice a Zeus y prácticamente se la regala. Así que una tarde Hades recoge a Persefone con su carruaje y se la lleva al inframundo. Demeter que no tenía conocimiento de lo que había ocurrido recibe ese acto como un secuestro.
+Comparte infancia con Deméter. Fue devorado por su padre y liberado por Zeus. Junto a sus hermanos se repartió el mundo, él se quedó con el inframundo. Vivía una vida alejada y solitaria hasta que un día ve a Perséfone, la hija de Deméter y se enamora de ella. Se lo dice a Zeus y prácticamente se la regala. Así que una tarde Hades recoge a Perséfone con su carruaje y se la lleva al inframundo. Deméter que no tenía conocimiento de lo que había ocurrido recibe ese acto como un secuestro.
 
-Después de mucha insistencia, Demeter logra llegar a un pacto con Hades, donde este tendrá que pasar 6 meses al año con su hija. Persefone queda encantada ya que aprecia su relación con su madre pero queda perdidamente enamorada de Hades.
+Después de mucha insistencia, Deméter logra llegar a un pacto con Hades, donde este tendrá que pasar 6 meses al año con su hija. Perséfone queda encantada ya que aprecia su relación con su madre, pero queda perdidamente enamorada de Hades.
 
 
 ## VFX
@@ -259,11 +262,11 @@ Después de mucha insistencia, Demeter logra llegar a un pacto con Hades, donde 
 - Hojas en subidas: Para señalar las zonas donde la protagonista puede ser impulsada hacia arriba, hay unas partículas en forma de hojas que se desplazan hacia arriba como si el viento las moviera.
 - Llama: Las llamas que hacen la función de llave en el juego están hechas con un sistema de partículas con físicas.
 - Llaves: en algunos escenarios hay símbolos esculpidos que hacen de llaves menores. Estas tienen un sistema de partículas que cuenta con físicas al desplazar la llave.
-- Partículas movimiento: cuando el jugador se mueve deja un rastro de partículas que enmarca las zonas donde va pasando. Simula la nieve que se levanta al hacerlo. También aparecen cuando esta salta. Estas se vuelven de color verde cuando el jugador esta caminado encima de cesped sin nieve.
+- Partículas movimiento: cuando el jugador se mueve deja un rastro de partículas que enmarca las zonas donde va pasando. Simula la nieve que se levanta al hacerlo. También aparecen cuando esta salta. Estas se vuelven de color verde cuando el jugador esté caminado encima de césped sin nieve.
 - Romper: efecto de partículas en forma de destello circular que aparece la protagonista para señalar que está usando su habilidad de romper.
 
 ## MÚSICA Y SONIDOS
-Nuestro juego tiene la intención de ser una experiencia visual, por eso damos mucha importancia a la fluidez y experiencia del jugador. Para lograr este ambiente el audio y el arte tienen un gran peso. Cuenta con una ambientación calmada, instrumental rozando lo místico/mágico (lo que podría acercarse al sonido que nos imaginamos al pensar en un bosque mágico). Pero también añadiendo un toque solitario, sentimental, profundo más acorde con la historia que queremos contar. 
+Nuestro juego tiene la intención de ser una experiencia visual, por eso damos mucha importancia a la fluidez y experiencia del jugador. Para lograr este ambiente el audio y el arte tienen un gran peso. Cuenta con una ambientación calmada, instrumental, rozando lo místico/mágico (lo que podría acercarse al sonido que nos imaginamos al pensar en un bosque mágico). Pero también añadiendo un toque solitario, sentimental, profundo, más acorde con la historia que queremos contar. 
 
 **SONIDOS**
 
@@ -283,5 +286,5 @@ Nuestro juego tiene la intención de ser una experiencia visual, por eso damos m
 
 **MÚSICA**
 
-Para la música hemos utilizado los trabajos experimentales del artista “Sleeping at last”. Es un músico responsable de hacer bandas sonoras de películas, trailers, anuncios de televisión y con un gran repertorio de música experimental. Son canciones muy expresivas y profundas. Algunas de ellas rozando lo fantástico/mistico. Solo con escucharlas ya logran poner los pelos de punta y no requieren de mucho más para crear una historia, un ambiente.
+Para la música hemos utilizado los trabajos experimentales del artista “Sleeping at last”. Es un músico responsable de hacer bandas sonoras de películas, tráilers, anuncios de televisión y con un gran repertorio de música experimental. Son canciones muy expresivas y profundas. Algunas de ellas rozando lo fantástico/místico. Solo con escucharlas ya logran poner los pelos de punta y no requieren de mucho más para crear una historia, un ambiente.
 
