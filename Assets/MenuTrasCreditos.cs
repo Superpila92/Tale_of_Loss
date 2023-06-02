@@ -19,5 +19,7 @@ public class MenuTrasCreditos : MonoBehaviour
     public void GoToCreditosTras33Segundos()
     {
         SceneManager.LoadScene("MainMenu");
+        //Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = true;
     }
 }
