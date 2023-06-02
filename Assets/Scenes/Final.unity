@@ -152,11 +152,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7274791759666623551, guid: 0d42428212b7a824d8d5cf565ed70862, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 8.4
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7274791759666623551, guid: 0d42428212b7a824d8d5cf565ed70862, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 14
+      value: 2.42
       objectReference: {fileID: 0}
     - target: {fileID: 7274791759666623551, guid: 0d42428212b7a824d8d5cf565ed70862, type: 3}
       propertyPath: m_LocalRotation.w
@@ -186,7 +186,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7274791759666623545, guid: 0d42428212b7a824d8d5cf565ed70862, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 0d42428212b7a824d8d5cf565ed70862, type: 3}
 --- !u!1 &36213653
 GameObject:
@@ -2381,7 +2382,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'ALBERTO JUDEZ
+  m_text: 'Alberto Judez
 
     Josefina Monistrol'
   m_isRightToLeft: 0

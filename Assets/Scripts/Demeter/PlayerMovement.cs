@@ -101,6 +101,7 @@ public class PlayerMovement : MonoBehaviour
     public GameObject Romper;
     public GameObject Romper2;
     public GameObject FlechitaUp;
+    public GameObject FlechitaUp2;
     public GameObject FlechitaTemplo;
     public static bool FlechaActivada = false;
 
@@ -318,6 +319,7 @@ public class PlayerMovement : MonoBehaviour
             Romper.SetActive(true);
             Romper2.SetActive(true);
             FlechitaUp.SetActive(true);
+            FlechitaUp2.SetActive(true);
             FlechitaTemplo.SetActive(true);
             FlechaActivada = true;
         }
@@ -335,6 +337,7 @@ public class PlayerMovement : MonoBehaviour
             Romper.SetActive(false);
             Romper2.SetActive(false);
             FlechitaUp.SetActive(false);
+            FlechitaUp2.SetActive(false);
             FlechitaTemplo.SetActive(false);
             FlechaActivada = false;
         }

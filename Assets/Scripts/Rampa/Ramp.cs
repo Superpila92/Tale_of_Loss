@@ -22,7 +22,7 @@ public class Ramp : MonoBehaviour
             plyM.jumpingPower = 0f;
             plyM.speed = 0f;
             plyM.canFlip = false;
-            Invoke("CanFlipDem", 14f);
+            Invoke("CanFlipDem", 13f);
             plyM.FlipDust2.Play();
         }
 

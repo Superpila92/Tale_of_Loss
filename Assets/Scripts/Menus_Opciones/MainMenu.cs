@@ -22,6 +22,8 @@ public class MainMenu : MonoBehaviour
     {
         anim = GetComponent<Animator>();
         anim.SetBool("IsLoadingPlay", false);
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
 
 
